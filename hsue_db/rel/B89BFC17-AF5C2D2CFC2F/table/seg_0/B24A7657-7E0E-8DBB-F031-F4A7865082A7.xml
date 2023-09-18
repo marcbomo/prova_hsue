@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B24A7657-7E0E-8DBB-F031-F4A7865082A7" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_TRADUCCIOMAP">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_TRADUCCIOMAP</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRADUCCIOMAPID" id="8D8DBEF4-C286-8159-EF23-8410603C459D">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_TRADUCCIOMAP</sourceObjSchema>
+<sourceObjName>TRADUCCIOMAPID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9272E0EB-79D5-3C99-A6B4-AD4AE4CE9EE6" referredColumn="EA8B2A00-DCA4-BAFD-6DB8-0CFB9DBA2A73"/>
+</associations>
+</Column>
+<Column name="IDIOMAID" id="C3EE483D-FF76-FB2B-C30C-D53409F547AB">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_TRADUCCIOMAP</sourceObjSchema>
+<sourceObjName>IDIOMAID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR" id="C774DFFD-1330-5D25-8A41-59DFA8E83121">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_TRADUCCIOMAP</sourceObjSchema>
+<sourceObjName>VALOR</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31520AC6-AF08-F80C-0B15-5C06EAF575B9" name="HSU_TRADUCCIOMAP_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_TRADUCCIOMAP_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D8DBEF4-C286-8159-EF23-8410603C459D"/>
+<colUsage columnID="C3EE483D-FF76-FB2B-C30C-D53409F547AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9EA7914-A8A7-A6C3-FCA1-2A203AA60BFE" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_TRADUCCIOMAP_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_TRADUCCIOMAP_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D8DBEF4-C286-8159-EF23-8410603C459D"/>
+<colUsage columnID="C3EE483D-FF76-FB2B-C30C-D53409F547AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D95C36B-BBCB-15C6-318F-189E995BA065" name="HSU_TRADUCMAP_TRADUCCIO_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D8DBEF4-C286-8159-EF23-8410603C459D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

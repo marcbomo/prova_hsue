@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C4A816D4-B57B-9FF1-6AE5-1209813C256B" containerWithKeyObject="F49061E2-F661-F12A-4E76-2445636D82BE" localFKIndex="FCE3D7D3-4069-927E-C740-1CAD73BE3F03" name="HSU_NACIONALID_PAIS_FK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_NACIONALID_PAIS_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<referredTableLongName>HSUEDB.HSU_PAIS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CFAB2D85-D6CA-FEEB-9B41-688356DB17AA</referredTableID>
+<keyObject>E307FB40-002F-3242-9D3E-6BFABE323BB3</keyObject>
+<referredKeyID>E307FB40-002F-3242-9D3E-6BFABE323BB3</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODIGO_PAIS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

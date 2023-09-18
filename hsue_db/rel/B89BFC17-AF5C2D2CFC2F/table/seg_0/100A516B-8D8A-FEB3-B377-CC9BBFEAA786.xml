@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="100A516B-8D8A-FEB3-B377-CC9BBFEAA786" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_TRADUCCIO">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_TRADUCCIO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TRADUCCIOID" id="EA8B2A00-DCA4-BAFD-6DB8-0CFB9DBA2A73">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_TRADUCCIO</sourceObjSchema>
+<sourceObjName>TRADUCCIOID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_TRADUCCIO_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C206447-4A46-181E-C8CC-A6E30CF78FF3" name="HSU_TRADUCCIO_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_TRADUCCIO_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA8B2A00-DCA4-BAFD-6DB8-0CFB9DBA2A73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8BEAF2E-8A09-D3BE-0C7A-2495BE5762DD" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_TRADUCCIO_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_TRADUCCIO_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA8B2A00-DCA4-BAFD-6DB8-0CFB9DBA2A73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

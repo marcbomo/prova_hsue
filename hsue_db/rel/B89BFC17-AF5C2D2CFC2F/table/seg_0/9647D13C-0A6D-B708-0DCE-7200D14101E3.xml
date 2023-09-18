@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9647D13C-0A6D-B708-0DCE-7200D14101E3" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_TSISTEMA">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_TSISTEMA</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TSISTEMA_ID" id="6DEDD85F-05DC-2204-DC0F-833D49890B43">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_TSISTEMA</sourceObjSchema>
+<sourceObjName>TSISTEMA_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del tipo de sistema.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="C9261A23-F349-A7CD-BCC2-E7567AAB250F">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_TSISTEMA</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descripción del sistema.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="F09360EB-F403-A7EA-87C4-C5AFE07D47D0">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_TSISTEMA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del sistema.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F26969A6-EEC9-47D4-9FAE-BFD59D7F2774" name="HSU_TSISTEMA_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_TSISTEMA_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DEDD85F-05DC-2204-DC0F-833D49890B43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAF35A1E-B68D-DEC8-B228-C3B343CC0DCC" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_TSISTEMA_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_TSISTEMA_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DEDD85F-05DC-2204-DC0F-833D49890B43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

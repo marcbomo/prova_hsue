@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7706C46C-9EE5-45F8-71DA-DCFF4EFA212A" mainViewID="B89C677F-BB2C-5D99-8D92-7B5C3DCB3B55">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:31:11 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AC12A64-23EE-EE6D-1551-ED4B2B9531D2" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_PAQUETE">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_PAQUETE</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAQUETE_ID" id="E81E097E-0C52-4FD1-66FA-BEC041BF988F">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PAQUETE</sourceObjSchema>
+<sourceObjName>PAQUETE_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del paquete.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_PAQUETE_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="C2EC30C3-78F7-B283-30EB-5CF2FC0E40D5">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PAQUETE</sourceObjSchema>
+<sourceObjName>FECHA</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Timestamp de la creacion del paquete.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAQUETE_ID_ORIGEN" id="9F98C3A8-5347-60F6-5181-1113C54E2BE0">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PAQUETE</sourceObjSchema>
+<sourceObjName>PAQUETE_ID_ORIGEN</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del paquete en el sistema de origen.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIMESTAMP_ORIGEN" id="AAB94910-0216-6A2B-ADFE-0A5230F09C1C">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PAQUETE</sourceObjSchema>
+<sourceObjName>TIMESTAMP_ORIGEN</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Timestamp de la creacion del paquete en el sistema de origen.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAQUETE" id="337CB0DA-797B-CE81-5050-3465BC9F2108">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PAQUETE</sourceObjSchema>
+<sourceObjName>PAQUETE</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Paquete en formato json (Comprimido con gzip y codificado con BASE64).]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAQUETE_PROCESADO" id="1E982BC4-B65A-4F6C-9F53-767124ADC1F5">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PAQUETE</sourceObjSchema>
+<sourceObjName>PAQUETE_PROCESADO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Paquete procesado(resultado del proceso del paquete) en formato json (Comprimido con gzip y codificado con BASE64).]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>4000 CHAR</dataTypeSize>
+<ownDataTypeParameters>4000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULTIMA_ACCION" id="50E037CD-9125-C8D3-5EC3-803BF6FA31ED">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PAQUETE</sourceObjSchema>
+<sourceObjName>ULTIMA_ACCION</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ultima accion procesada del paquete.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTA_PROCESADO" id="47FE4F22-A823-7D45-E040-1341F2F4C407">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PAQUETE</sourceObjSchema>
+<sourceObjName>ESTA_PROCESADO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indica si el paquete se ha procesado.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ERROR" id="66087FF8-17BF-3EFC-97AB-936FFC31611C">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PAQUETE</sourceObjSchema>
+<sourceObjName>CODIGO_ERROR</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo del error.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_ERROR" id="85D55132-50CF-8DEE-85DA-F53309C42AF0">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PAQUETE</sourceObjSchema>
+<sourceObjName>DESCRIPCION_ERROR</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descripción del error.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>2000 CHAR</dataTypeSize>
+<ownDataTypeParameters>2000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BA6507D-C419-E6F9-E1C3-0914417DDB0F" name="HSU_PAQUETE_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_PAQUETE_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E81E097E-0C52-4FD1-66FA-BEC041BF988F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF626032-336C-E3D4-2CBE-E58A4A042AD2" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_PAQUETE_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_PAQUETE_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E81E097E-0C52-4FD1-66FA-BEC041BF988F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

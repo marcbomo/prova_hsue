@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77FE912B-EC42-DA17-F396-CF992BE693AA" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_CCAA">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_CCAA</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CCAA_ID" id="3A64C646-259E-C327-FC03-FD7097EF8CB6">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_CCAA</sourceObjSchema>
+<sourceObjName>CODIGO_CCAA_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo INE de la Comunidad Autonoma.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PAIS_ID" id="DB438073-9C9A-D878-5D87-5302E8FEE7D7">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_CCAA</sourceObjSchema>
+<sourceObjName>CODIGO_PAIS_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo INE del país.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3653CEB4-DA05-91EA-E083-B769692D6506" referredColumn="64EC2592-8F42-AA06-4236-4AF71B7ED844"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="CC9B1C2F-4351-AD24-B6B5-EE3FD4E8DF5B">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_CCAA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la Comunidad Autonoma.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA8E8D91-C078-9CFD-21D3-63787D874DDF" name="HSU_CCAA_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_CCAA_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A64C646-259E-C327-FC03-FD7097EF8CB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF5C6CA7-0EDC-A7F7-3225-BF9EEF4316C8" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_CCAA_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_CCAA_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A64C646-259E-C327-FC03-FD7097EF8CB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5A2478C-4128-BBE0-650A-F8485CB55DFA" name="HSU_CCAA_PAIS_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB438073-9C9A-D878-5D87-5302E8FEE7D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

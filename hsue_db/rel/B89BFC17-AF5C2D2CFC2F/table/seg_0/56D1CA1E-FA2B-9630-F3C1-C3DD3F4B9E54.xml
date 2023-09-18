@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56D1CA1E-FA2B-9630-F3C1-C3DD3F4B9E54" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_DEP_RESOLUCION">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_DEP_RESOLUCION</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RESOLUCION_ID" id="A90781AC-7ED4-2381-D508-C49BDA01BE32">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_RESOLUCION</sourceObjSchema>
+<sourceObjName>RESOLUCION_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_DEP_RESOLUCION_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRESTACION_FK" id="D10A95E2-7E85-E4B5-0CA5-66C016F05C13">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_RESOLUCION</sourceObjSchema>
+<sourceObjName>PRESTACION_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AE4FD29-1037-36EA-B4DD-18BD2B03C3CD" referredColumn="41B7E344-C49A-B421-E707-32F8B9660533"/>
+</associations>
+</Column>
+<Column name="TRESOLUCION_FK" id="AB9F600D-1093-88A4-8CF1-40821FA085F6">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_RESOLUCION</sourceObjSchema>
+<sourceObjName>TRESOLUCION_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE4791F5-04DF-DADF-6805-0B69503BBBD3" referredColumn="532B9BF3-4C4B-CC94-4F47-77F67D49211A"/>
+</associations>
+</Column>
+<Column name="RESOLUCION_ORIGEN" id="BDEF50B9-C5B5-D8DA-448D-7498DC52E92C">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_RESOLUCION</sourceObjSchema>
+<sourceObjName>RESOLUCION_ORIGEN</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_RESOLUCION" id="4495AF8B-1590-4135-F8F7-74046101E275">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_RESOLUCION</sourceObjSchema>
+<sourceObjName>FECHA_RESOLUCION</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1428EDF-1E94-A375-2B72-2B4B5794A625" name="RESOLUCION_ID_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>RESOLUCION_ID_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A90781AC-7ED4-2381-D508-C49BDA01BE32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D61D2DFD-4434-A2CA-F822-6447420F7DD6" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="RESOLUCION_ID_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>RESOLUCION_ID_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A90781AC-7ED4-2381-D508-C49BDA01BE32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2080B1DC-1B03-615B-D90B-F24D9D63637A" name="HSU_DEP_RESOLUCION_PRESTACION_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D10A95E2-7E85-E4B5-0CA5-66C016F05C13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="020E8DD0-316A-B123-6787-DECADD5B7592" name="HSU_DEP_RESOLUCION_TRESOLUCION_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB9F600D-1093-88A4-8CF1-40821FA085F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7AE4FD29-1037-36EA-B4DD-18BD2B03C3CD" containerWithKeyObject="56D1CA1E-FA2B-9630-F3C1-C3DD3F4B9E54" localFKIndex="2080B1DC-1B03-615B-D90B-F24D9D63637A" name="HSU_DEP_RESOLUCION_PRESTACION_FK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_DEP_RESOLUCION_PRESTACION_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<referredTableLongName>HSUEDB.HSU_DEP_PRESTACION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>744B6AD7-8E19-9A90-402D-49A438F7E138</referredTableID>
+<keyObject>C182A939-B8F8-72CA-3CB1-AF09EA191A53</keyObject>
+<referredKeyID>C182A939-B8F8-72CA-3CB1-AF09EA191A53</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PRESTACION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,203 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18658C5D-1486-3F49-ADDC-AB768A5D35B0" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_VIA">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_VIA</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VIA_ID" id="36387ECA-C44B-232B-7D1C-C65EDFE4FEB3">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_VIA</sourceObjSchema>
+<sourceObjName>VIA_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la via, tiene el formato:
+“codigo_provincia + codigo_municipio + codigo_via”.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_MUNICIPIO" id="34D5D0FD-D188-6C3A-5DAC-06D6EF91E431">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_VIA</sourceObjSchema>
+<sourceObjName>CODIGO_MUNICIPIO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo INE de la municipio.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PROVINCIA" id="6E1E8899-F9BB-CA18-48DD-20DBB9D64154">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_VIA</sourceObjSchema>
+<sourceObjName>CODIGO_PROVINCIA</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo INE de la província.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_VIA" id="E8C2ECCD-3AF9-7596-513C-83A090995EDB">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_VIA</sourceObjSchema>
+<sourceObjName>CODIGO_VIA</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo INE de la via.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FVAR" id="7D4F9A2E-72F1-FA7F-4635-6839B32E9DEA">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_VIA</sourceObjSchema>
+<sourceObjName>FVAR</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de variación]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MUNICIPIO_ID" id="2C065023-0444-8D1F-BFFB-E30BCE495A36">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_VIA</sourceObjSchema>
+<sourceObjName>MUNICIPIO_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador municipio.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="656180EE-F047-F9B5-FF4F-E19E44C8A548" referredColumn="BC3A7D65-C2E7-04DF-158A-0C601C215C53"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="F47CAF6F-E4BB-533C-E6A1-A73000DDBC61">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_VIA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la via]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_VIA" id="A1F51E81-BAE6-9485-BCAA-F4A513CB2F7B">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_VIA</sourceObjSchema>
+<sourceObjName>TIPO_VIA</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo de via.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TVIA_ID" id="4CE1275E-6200-409C-8541-E6150C4FA6A7">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_VIA</sourceObjSchema>
+<sourceObjName>TVIA_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del tipus de via.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBA674F3-3A9A-213F-5599-CC5A9A3D892E" referredColumn="68F6DE07-3B19-6323-CED4-798DDBC61CB6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32F512A9-9B76-931C-9C27-4E91BDC902AC" name="HSU_VIA_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_VIA_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36387ECA-C44B-232B-7D1C-C65EDFE4FEB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2458BA02-9A87-19E9-A149-42DCA624CC82" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_VIA_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_VIA_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36387ECA-C44B-232B-7D1C-C65EDFE4FEB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7D76050-1C00-E2AA-B854-285E9347F83A" name="HSU_VIA_MUNICIPIO_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C065023-0444-8D1F-BFFB-E30BCE495A36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="676B9231-05C2-E0D8-5264-08E84A0CE4FF" name="HSU_VIA_TVIA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CE1275E-6200-409C-8541-E6150C4FA6A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

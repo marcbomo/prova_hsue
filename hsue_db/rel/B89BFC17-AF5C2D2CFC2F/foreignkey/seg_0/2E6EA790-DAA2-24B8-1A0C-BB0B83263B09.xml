@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2E6EA790-DAA2-24B8-1A0C-BB0B83263B09" containerWithKeyObject="2193E3EB-DDAA-5A11-ABE6-1ECE1C3C65D1" localFKIndex="3F679958-8B1A-8994-6A21-65E61EFFD31D" name="HSU_USUARIO_LUGARNAC_FK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_USUARIO_LUGARNAC_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<referredTableLongName>HSUEDB.HSU_LUGAR_NAC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6C124ED5-246C-3A78-4171-A2316C4B4B85</referredTableID>
+<keyObject>27B67A1F-2D65-D88F-C110-E5F8D19B54C9</keyObject>
+<referredKeyID>27B67A1F-2D65-D88F-C110-E5F8D19B54C9</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>LUGAR_NAC_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

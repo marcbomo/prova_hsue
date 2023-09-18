@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="HSU_LUGAR_NAC" directorySegmentName="seg_0" id="6C124ED5-246C-3A78-4171-A2316C4B4B85">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<schemaObject>886467AA-1696-2D0F-2116-21ABB1AF0067</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>D0824105-E0A1-4660-9E46-29F3615BBE64</segment>
+<tableSpace>F5CA279C-73D4-45D2-798F-AD5055898648</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODIGO_PROVINCIA_ID" id="44B6A153-5C2B-8A6A-5C7B-97646D5838D3">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="99F05E78-388B-BF98-AB8F-ACCF5022DCC6">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LUGAR_NAC_ID" id="B602484C-2152-F0F1-660B-113961F68730">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_LUGAR_NAC_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_PAIS_ID" id="E6764511-2CD8-012A-B810-2702667D877B">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="HSU_LUGAR_NAC_PK" id="9D9B22E4-1F34-2315-1CF0-532FF296D7C0">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<schemaObject>886467AA-1696-2D0F-2116-21ABB1AF0067</schemaObject>
+<segment>84FCB2CA-E210-6D05-E727-86883396A891</segment>
+<tableSpace>F5CA279C-73D4-45D2-798F-AD5055898648</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HSU_LUGARNAC_PROVINCIA_FK" id="5378DFCD-82F6-0C14-5DB4-B71F23BB3B56">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HSU_LUGARNAC_PAIS_FK" id="7D483AD3-1B9A-7066-8402-B8AE885A5C7B">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HSU_LUGAR_NAC_PK" id="27B67A1F-2D65-D88F-C110-E5F8D19B54C9">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<segment>84FCB2CA-E210-6D05-E727-86883396A891</segment>
+<tableSpace>F5CA279C-73D4-45D2-798F-AD5055898648</tableSpace>
+<existingIndex>9D9B22E4-1F34-2315-1CF0-532FF296D7C0</existingIndex>
+<indexSegment>84FCB2CA-E210-6D05-E727-86883396A891</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

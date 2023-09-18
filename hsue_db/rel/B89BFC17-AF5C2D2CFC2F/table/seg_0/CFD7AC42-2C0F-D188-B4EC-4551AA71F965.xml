@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFD7AC42-2C0F-D188-B4EC-4551AA71F965" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_UP">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_UP</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UP_ID" id="78A8B4C7-6A68-E609-F09C-D203CCC6648E">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_UP</sourceObjSchema>
+<sourceObjName>UP_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la Unidad Poblacional, tiene  el formato:
+“codigo_provincia + codigo_municipoi+codigo_un”]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_MUNICIPIO" id="6F84D248-24CE-6782-1C37-7406F86018F1">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_UP</sourceObjSchema>
+<sourceObjName>CODIGO_MUNICIPIO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo INE del municipio.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PROVINCIA" id="65F065C7-3436-419D-65E4-D6857ACBDA19">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_UP</sourceObjSchema>
+<sourceObjName>CODIGO_PROVINCIA</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo INE de la provincia.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_UP" id="FDBFF36F-B454-9241-6EE0-F187BB97D8AF">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_UP</sourceObjSchema>
+<sourceObjName>CODIGO_UP</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo INE de la Undad Poblacional]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DMUN" id="65A2E23C-D162-FAE7-3542-65488FBA77CF">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_UP</sourceObjSchema>
+<sourceObjName>DMUN</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del municipio de 50 caracteres.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FVAR" id="17ED8EF2-7B91-E9DE-7B5B-520CFC8CB07E">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_UP</sourceObjSchema>
+<sourceObjName>FVAR</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha  de variación]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MUNICIPIO_ID" id="A7386C94-7155-3FD5-6300-A514421C8FF3">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_UP</sourceObjSchema>
+<sourceObjName>MUNICIPIO_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador municipio.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABF43147-4C44-4750-A889-E58A66B07355" referredColumn="BC3A7D65-C2E7-04DF-158A-0C601C215C53"/>
+</associations>
+</Column>
+<Column name="NENTCO" id="375402FE-B32D-FAE7-AE70-A7A78D40C2B4">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_UP</sourceObjSchema>
+<sourceObjName>NENTCO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la Entidad colectiva de 50 caracteres.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NENTSI" id="A1021255-8FA7-ED9D-A71D-AD81B20606A5">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_UP</sourceObjSchema>
+<sourceObjName>NENTSI</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la Entdtad singular de 50 caracteres.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NNUCLE" id="522F3C91-C279-E954-8C86-FC0A134680D6">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_UP</sourceObjSchema>
+<sourceObjName>NNUCLE</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de el nucleo/diseminado de 50 caracteres.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6629313-C536-2BD0-2EE5-A19943C0C025" name="HSU_UP_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_UP_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78A8B4C7-6A68-E609-F09C-D203CCC6648E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A945C8C-CA77-E2B6-3263-8BC2D8759096" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_UP_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_UP_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78A8B4C7-6A68-E609-F09C-D203CCC6648E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0515431C-6FE0-6AC4-A9BE-F89DA86988C8" name="HSU_UP_MUNICIPIO_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7386C94-7155-3FD5-6300-A514421C8FF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="hsue_db" id="E3469226-53DC-BE15-D4D5-C9D202625993" version="3.5">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:31:11 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E3469226-53DC-BE15-D4D5-C9D202625993</designId>
+</OSDM_Design>

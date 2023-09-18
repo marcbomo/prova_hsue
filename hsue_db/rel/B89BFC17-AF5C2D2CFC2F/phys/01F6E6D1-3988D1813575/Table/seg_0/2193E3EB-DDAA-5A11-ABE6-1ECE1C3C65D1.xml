@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="HSU_USUARIO" directorySegmentName="seg_0" id="2193E3EB-DDAA-5A11-ABE6-1ECE1C3C65D1">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<schemaObject>886467AA-1696-2D0F-2116-21ABB1AF0067</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>509611E9-0ABD-8E67-CEA1-A8494AC69F05</segment>
+<tableSpace>F5CA279C-73D4-45D2-798F-AD5055898648</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ACTIVO" id="016C1574-D1E1-2329-46EF-C35B357026EA">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_DEFUNCION" id="0AB149D9-8595-14EC-FB9F-E35D8C3359F5">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO2" id="0C7D9F43-DE20-EE72-6D20-D9EE3ADC061E">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IDIOMA_PREFERIDO" id="0CDD218B-5DC6-8679-29A6-FA30180CB9FE">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INDOCUMENTAT" id="0E0C1A70-475F-ADAA-1C3A-F37F1B3C0E02">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORIGEN_ID" id="0E6AF7E0-30AF-BCB6-3A81-AAA0F1566B9F">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_B" id="115B3C9D-6523-7127-F94E-79095A2DCEF1">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMERO_SS" id="1A7262AF-8D83-75B5-C40E-7640B381784B">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USUARIO_ID" id="1B8E920B-A038-3CC0-E7BD-E827CA471256">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_USUARIO_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="SEXO" id="2AC88615-F200-39F6-CE94-4F46750503C5">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LUGAR_NAC_ID" id="45A5499F-0915-1CE1-E834-58680573EFED">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_M" id="4C5F3AE7-DE87-365F-740E-C0D4D249FB8D">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="4EF7192B-71C1-C6A4-6FA3-5729E65657E3">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_B_S" id="7D7C6058-8258-DE48-1EE7-6626AA063DAF">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORIGEN_DUPLICADO_ID" id="7FCE6587-B694-E003-C9BA-A7A384E251FE">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SISTEMA_ID" id="86F4B07F-452B-8F95-2547-EFCB839E335F">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_C" id="87CDC814-FCE4-F5F3-BA4C-0F08EF37BDB8">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO1" id="917D2A72-DAB7-7821-1B6C-6EAA4960520D">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_NACIMIENTO" id="B02C72A9-D17B-4789-7158-A87A91D73495">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USUARIO_ACTUALIZACION" id="B2EC6C71-3C81-FCCC-5EEB-1391A6FC79EF">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USUARIO_DUPLICADO_ID" id="B56F98C8-74D3-258B-940A-ADDDC08CFCBE">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO_CIVIL" id="BB137CDD-B20E-073F-F003-8D1224AB53ED">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_C_S" id="C3E1E349-B262-7907-2FE0-E3EA6EEA2E7E">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_M_S" id="C5A9F7BD-9100-56A8-DDE3-EF182A6AC5E6">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TBAJA_ID" id="F65DF67C-313C-614A-838E-EA89BE3CC364">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERSONA_ID" id="FA69D96C-5C12-5647-B931-A7F0AA762BD8">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="HSU_USUARIO_PK" id="EE91591B-18B1-5583-62B9-D7C5FEE9CEAB">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<schemaObject>886467AA-1696-2D0F-2116-21ABB1AF0067</schemaObject>
+<segment>3DB489EE-CD62-8CD9-65E6-530606DCEC8F</segment>
+<tableSpace>F5CA279C-73D4-45D2-798F-AD5055898648</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HSU_USUARIO_USUARIO_FK" id="0BAA5F6C-1FDC-24E6-A054-DD457FB74CF6">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HSU_USUARIO_LUGARNAC_FK" id="3F679958-8B1A-8994-6A21-65E61EFFD31D">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HSU_USUARIO_PERSONA_FK" id="4EBB492D-3D0B-A93D-B8BF-B882FB027016">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HSU_USUARIO_TBAJA_FK" id="CAA9EE75-51D5-A28D-C087-83BB5BB352C7">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HSU_USUARIO_SISTEMA_FK" id="E990B068-11F0-EFED-99C9-394333BA62A0">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HSU_USUARIO_PK" id="F013BF56-170D-C916-6790-E0FDBBDCAD31">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<segment>3DB489EE-CD62-8CD9-65E6-530606DCEC8F</segment>
+<tableSpace>F5CA279C-73D4-45D2-798F-AD5055898648</tableSpace>
+<existingIndex>EE91591B-18B1-5583-62B9-D7C5FEE9CEAB</existingIndex>
+<indexSegment>3DB489EE-CD62-8CD9-65E6-530606DCEC8F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

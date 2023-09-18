@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="HSU_DEP_CICLO_VIDA" directorySegmentName="seg_0" id="55F65156-1EB3-6D5A-390A-1238D825F499">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<schemaObject>886467AA-1696-2D0F-2116-21ABB1AF0067</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>509611E9-0ABD-8E67-CEA1-A8494AC69F05</segment>
+<tableSpace>F5CA279C-73D4-45D2-798F-AD5055898648</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EXP_DEPENDENCIA_FK" id="0BBE9115-CF31-4C47-17A5-77609C7ADDDA">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GRADO_TIPO_GRADO" id="180184DF-E868-F9E3-6EF4-70001A00C808">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_VALIDACION" id="1835D1C0-18B2-BC4A-58A1-0B499352B431">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GRADO_PUNTUACION" id="2A9A70A3-FCA4-1BE9-723C-291E71CD327E">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GRADO_RECONOCIDO" id="4D10367C-285D-939F-883E-6529F0C1A68F">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CICLO_VIDA_ORIGEN" id="4DC96A42-73ED-46D9-2E3E-8914D88EE51D">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TCICLO_VIDA_FK" id="4F4BF0D2-EBBA-8E54-D93A-8E8B65A2CC85">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="70A8A938-FD26-C7A4-2A38-7460CB931AD1">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EGESTION_FK" id="91B4F665-9334-A71A-D993-3404638D3E79">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GRADO_TIPO_ORIGEN" id="947D8290-4599-110B-D460-672EC8AF81D6">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_REGISTRO" id="B935B488-BF55-466A-F451-429F21240767">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_RESOLUCION" id="D3DF9FAE-E318-0792-F115-9E88786717FE">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GRADO_RECONOCIDO_ID_ORIGEN" id="DF10979B-6E3B-3762-A64B-A562DE5AC371">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GRADO_ID_ORIGEN" id="F1166F73-8125-E92A-9212-E23D2034D54C">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CICLO_VIDA_ID" id="F5FA3DFF-E3FD-278A-3315-358E4ACB37B1">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_DEP_CICLO_VIDA_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CICLO_VIDA_ID_PK" id="9EC501A9-0B3F-33B0-593A-38FCE8FE39C6">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<schemaObject>886467AA-1696-2D0F-2116-21ABB1AF0067</schemaObject>
+<segment>3DB489EE-CD62-8CD9-65E6-530606DCEC8F</segment>
+<tableSpace>F5CA279C-73D4-45D2-798F-AD5055898648</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HSU_DEP_CICLO_VIDA_EXP_DEPENDENCIA_FK" id="0C51052D-2836-F641-845E-6B7CC077D693">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HSU_DEP_CICLO_VIDA_EGESTION_FK" id="286EF95E-F2AD-43E8-DDE0-B44AED2B46DB">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HSU_DEP_CICLO_VIDA_TCICLO_VIDA_FK" id="298BA47A-3A0E-61C7-18AB-68F988803270">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CICLO_VIDA_ID_PK" id="13BE675D-6FC1-EEEA-299F-97D373A37E56">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<segment>3DB489EE-CD62-8CD9-65E6-530606DCEC8F</segment>
+<tableSpace>F5CA279C-73D4-45D2-798F-AD5055898648</tableSpace>
+<existingIndex>9EC501A9-0B3F-33B0-593A-38FCE8FE39C6</existingIndex>
+<indexSegment>3DB489EE-CD62-8CD9-65E6-530606DCEC8F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

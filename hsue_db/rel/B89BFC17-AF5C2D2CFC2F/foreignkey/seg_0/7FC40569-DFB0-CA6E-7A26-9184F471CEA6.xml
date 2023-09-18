@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7FC40569-DFB0-CA6E-7A26-9184F471CEA6" containerWithKeyObject="55F65156-1EB3-6D5A-390A-1238D825F499" localFKIndex="298BA47A-3A0E-61C7-18AB-68F988803270" name="HSU_DEP_CICLO_VIDA_TCICLO_VIDA_FK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_DEP_CICLO_VIDA_TCICLO_VIDA_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<referredTableLongName>HSUEDB.HSU_DEP_TCICLO_VIDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5AD65C18-D9D6-0E8F-A897-36AFCC404151</referredTableID>
+<keyObject>BD7389CD-11C5-2B9B-7405-133BD714543D</keyObject>
+<referredKeyID>BD7389CD-11C5-2B9B-7405-133BD714543D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TCICLO_VIDA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

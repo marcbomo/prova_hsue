@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="HSU_EXP_PERSONAL" directorySegmentName="seg_0" id="C0E29B9D-5BE4-F9B1-9713-8F1ED9D4FF09">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<schemaObject>886467AA-1696-2D0F-2116-21ABB1AF0067</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>509611E9-0ABD-8E67-CEA1-A8494AC69F05</segment>
+<tableSpace>F5CA279C-73D4-45D2-798F-AD5055898648</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="USUARIO_ID" id="846064DA-B399-18A0-CE90-4108F01EFF5B">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION_CORTA" id="C9558A16-782E-8FCE-E1F1-76D44DE1613E">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION" id="EBB4D8E2-04E1-28A4-35A1-A2EAFCF00E29">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXP_PERSONAL_ID" id="EEE0E3AB-00C7-0A43-4751-2D572B7DEF13">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_EXP_PERSONAL_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_EXPEDIENTE" id="EF4BEE6B-D256-4E98-1C92-6FE52C5AEB30">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="HSU_EXP_PERSONAL_PK" id="45E9035D-F58A-DDEC-C12D-92A057E8880B">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<schemaObject>886467AA-1696-2D0F-2116-21ABB1AF0067</schemaObject>
+<segment>3DB489EE-CD62-8CD9-65E6-530606DCEC8F</segment>
+<tableSpace>F5CA279C-73D4-45D2-798F-AD5055898648</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HSU_EXPPER_USUARIO_FK" id="845D5CBC-4FF2-0DB6-DE7F-3962450097B7">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HSU_EXP_PERSONAL_PK" id="6AB4BE89-9F87-D154-74E1-4FE13FC1A1F3">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<segment>3DB489EE-CD62-8CD9-65E6-530606DCEC8F</segment>
+<tableSpace>F5CA279C-73D4-45D2-798F-AD5055898648</tableSpace>
+<existingIndex>45E9035D-F58A-DDEC-C12D-92A057E8880B</existingIndex>
+<indexSegment>3DB489EE-CD62-8CD9-65E6-530606DCEC8F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

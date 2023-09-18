@@ -1,0 +1,516 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2193E3EB-DDAA-5A11-ABE6-1ECE1C3C65D1" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_USUARIO">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_USUARIO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USUARIO_ID" id="1B8E920B-A038-3CC0-E7BD-E827CA471256">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>USUARIO_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del usuario.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_USUARIO_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVO" id="016C1574-D1E1-2329-46EF-C35B357026EA">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>ACTIVO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identifica si el usuario esta activo.
+0 - False
+1 - True]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO1" id="917D2A72-DAB7-7821-1B6C-6EAA4960520D">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>APELLIDO1</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Primer apellido del usuario.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO2" id="0C7D9F43-DE20-EE72-6D20-D9EE3ADC061E">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>APELLIDO2</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Segundo apellido del usuario.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO_CIVIL" id="BB137CDD-B20E-073F-F003-8D1224AB53ED">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>ESTADO_CIVIL</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estado civil:
+1. Soltero/a.
+2. Casado/a.
+3. Unión libre o unión de echo.
+4. Viudo/a.
+5. Divorciado/a.
+6. Separado/a.
+7. Separado/a legal.
+8. Separado/a de echo.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_B" id="115B3C9D-6523-7127-F94E-79095A2DCEF1">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>FECHA_B</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de baja en HSU.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_B_S" id="7D7C6058-8258-DE48-1EE7-6626AA063DAF">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>FECHA_B_S</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de baja en el sistema origen.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_C" id="87CDC814-FCE4-F5F3-BA4C-0F08EF37BDB8">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>FECHA_C</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de creacion en HSU.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_C_S" id="C3E1E349-B262-7907-2FE0-E3EA6EEA2E7E">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>FECHA_C_S</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de creacion en el sistema origen.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_DEFUNCION" id="0AB149D9-8595-14EC-FB9F-E35D8C3359F5">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>FECHA_DEFUNCION</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de defunción del usuario.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_M" id="4C5F3AE7-DE87-365F-740E-C0D4D249FB8D">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>FECHA_M</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de modificación en HSU.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_M_S" id="C5A9F7BD-9100-56A8-DDE3-EF182A6AC5E6">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>FECHA_M_S</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de modificación en el sistema origen.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="B02C72A9-D17B-4789-7158-A87A91D73495">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>FECHA_NACIMIENTO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de nacimiento del usuario.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDIOMA_PREFERIDO" id="0CDD218B-5DC6-8679-29A6-FA30180CB9FE">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>IDIOMA_PREFERIDO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Idioma de contacto preferido.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INDOCUMENTAT" id="0E0C1A70-475F-ADAA-1C3A-F37F1B3C0E02">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>INDOCUMENTAT</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identifica si la persona esta indocumentada.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LUGAR_NAC_ID" id="45A5499F-0915-1CE1-E834-58680573EFED">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>LUGAR_NAC_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del ligar de nacimiento.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E6EA790-DAA2-24B8-1A0C-BB0B83263B09" referredColumn="B602484C-2152-F0F1-660B-113961F68730"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="4EF7192B-71C1-C6A4-6FA3-5729E65657E3">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del usuario.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_SS" id="1A7262AF-8D83-75B5-C40E-7640B381784B">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>NUMERO_SS</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número de la Seguridad Social.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>13 CHAR</dataTypeSize>
+<ownDataTypeParameters>13 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORIGEN_DUPLICADO_ID" id="7FCE6587-B694-E003-C9BA-A7A384E251FE">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>ORIGEN_DUPLICADO_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del usuario duplicado en el sistema de origen.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORIGEN_ID" id="0E6AF7E0-30AF-BCB6-3A81-AAA0F1566B9F">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>ORIGEN_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del usuario en el sistema de origen.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONA_ID" id="FA69D96C-5C12-5647-B931-A7F0AA762BD8">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>PERSONA_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la persona.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAA310A9-0DDB-EE11-D862-254B08A98D83" referredColumn="9A1D19C4-F220-E413-B24B-3B665B8D7FAB"/>
+</associations>
+</Column>
+<Column name="SEXO" id="2AC88615-F200-39F6-CE94-4F46750503C5">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>SEXO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sexo del usuario:
+1 - Hombre
+2 - Mujer
+3 - No identificado]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SISTEMA_ID" id="86F4B07F-452B-8F95-2547-EFCB839E335F">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>SISTEMA_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del sistema.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="376E7713-7AC0-E904-AC95-B06AC42D0398" referredColumn="DC3A6CD3-0CFF-1874-15FC-8BBE30C45545"/>
+</associations>
+</Column>
+<Column name="TBAJA_ID" id="F65DF67C-313C-614A-838E-EA89BE3CC364">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>TBAJA_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del tipo de baja. Si el usuario est aactivo sera null.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9BC189A-76FE-2F8E-27AA-98D38566BA9A" referredColumn="0F03152A-F0C2-412D-427D-CA52B62CA8DB"/>
+</associations>
+</Column>
+<Column name="USUARIO_ACTUALIZACION" id="B2EC6C71-3C81-FCCC-5EEB-1391A6FC79EF">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>USUARIO_ACTUALIZACION</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Trabajador que ha actualizado el usuario.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_DUPLICADO_ID" id="B56F98C8-74D3-258B-940A-ADDDC08CFCBE">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_USUARIO</sourceObjSchema>
+<sourceObjName>USUARIO_DUPLICADO_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del usuario duplicado.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61120CC4-79B9-AC2C-1672-7FB16E8B24BD" referredColumn="1B8E920B-A038-3CC0-E7BD-E827CA471256"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F013BF56-170D-C916-6790-E0FDBBDCAD31" name="HSU_USUARIO_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_USUARIO_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B8E920B-A038-3CC0-E7BD-E827CA471256"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE91591B-18B1-5583-62B9-D7C5FEE9CEAB" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_USUARIO_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_USUARIO_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B8E920B-A038-3CC0-E7BD-E827CA471256"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F679958-8B1A-8994-6A21-65E61EFFD31D" name="HSU_USUARIO_LUGARNAC_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45A5499F-0915-1CE1-E834-58680573EFED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EBB492D-3D0B-A93D-B8BF-B882FB027016" name="HSU_USUARIO_PERSONA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA69D96C-5C12-5647-B931-A7F0AA762BD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E990B068-11F0-EFED-99C9-394333BA62A0" name="HSU_USUARIO_SISTEMA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86F4B07F-452B-8F95-2547-EFCB839E335F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAA9EE75-51D5-A28D-C087-83BB5BB352C7" name="HSU_USUARIO_TBAJA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F65DF67C-313C-614A-838E-EA89BE3CC364"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BAA5F6C-1FDC-24E6-A054-DD457FB74CF6" name="HSU_USUARIO_USUARIO_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B56F98C8-74D3-258B-940A-ADDDC08CFCBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
