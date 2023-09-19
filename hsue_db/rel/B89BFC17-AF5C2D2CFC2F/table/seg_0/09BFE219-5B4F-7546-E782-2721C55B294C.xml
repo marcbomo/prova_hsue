@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09BFE219-5B4F-7546-E782-2721C55B294C" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_PROVINCIA">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_PROVINCIA</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PROVINCIA_ID" id="A807EC37-55B1-5950-49CA-A0A37B076F76">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PROVINCIA</sourceObjSchema>
+<sourceObjName>CODIGO_PROVINCIA_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo INE de la provincia.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_CCAA_ID" id="D7E6DE21-3AED-C797-D485-BE804B626F95">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PROVINCIA</sourceObjSchema>
+<sourceObjName>CODIGO_CCAA_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo INE de la Comunidad Autonoma.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89FE546B-4329-05A3-7842-5F5DE6848440" referredColumn="3A64C646-259E-C327-FC03-FD7097EF8CB6"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="BAB484AF-08B8-306D-CD07-712662947CB8">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PROVINCIA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la provincia.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07BFA42C-76D3-1BC4-651F-8745394F7187" name="HSU_PROVINCIA_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_PROVINCIA_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A807EC37-55B1-5950-49CA-A0A37B076F76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC26E5F5-9AB9-3BCB-8893-C04E2088A11B" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_PROVINCIA_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_PROVINCIA_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A807EC37-55B1-5950-49CA-A0A37B076F76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="110C399B-7F48-2513-3D26-6842EDE0D937" name="HSU_PROVINCIA_CCAA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7E6DE21-3AED-C797-D485-BE804B626F95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

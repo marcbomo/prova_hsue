@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C124ED5-246C-3A78-4171-A2316C4B4B85" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_LUGAR_NAC">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_LUGAR_NAC</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LUGAR_NAC_ID" id="B602484C-2152-F0F1-660B-113961F68730">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_LUGAR_NAC</sourceObjSchema>
+<sourceObjName>LUGAR_NAC_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id del lugar de nacimiento]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_LUGAR_NAC_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PAIS_ID" id="E6764511-2CD8-012A-B810-2702667D877B">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_LUGAR_NAC</sourceObjSchema>
+<sourceObjName>CODIGO_PAIS_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo INE del país.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97A21B0B-691E-E49E-A9DD-81DEB4E85839" referredColumn="64EC2592-8F42-AA06-4236-4AF71B7ED844"/>
+</associations>
+</Column>
+<Column name="CODIGO_PROVINCIA_ID" id="44B6A153-5C2B-8A6A-5C7B-97646D5838D3">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_LUGAR_NAC</sourceObjSchema>
+<sourceObjName>CODIGO_PROVINCIA_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo INE de la provincia.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC6237EE-9BE7-5C00-351A-78F8DFD1E628" referredColumn="A807EC37-55B1-5950-49CA-A0A37B076F76"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="99F05E78-388B-BF98-AB8F-ACCF5022DCC6">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_LUGAR_NAC</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del lugar de nacimiento.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27B67A1F-2D65-D88F-C110-E5F8D19B54C9" name="HSU_LUGAR_NAC_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_LUGAR_NAC_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B602484C-2152-F0F1-660B-113961F68730"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D9B22E4-1F34-2315-1CF0-532FF296D7C0" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_LUGAR_NAC_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_LUGAR_NAC_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B602484C-2152-F0F1-660B-113961F68730"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D483AD3-1B9A-7066-8402-B8AE885A5C7B" name="HSU_LUGARNAC_PAIS_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6764511-2CD8-012A-B810-2702667D877B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5378DFCD-82F6-0C14-5DB4-B71F23BB3B56" name="HSU_LUGARNAC_PROVINCIA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44B6A153-5C2B-8A6A-5C7B-97646D5838D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

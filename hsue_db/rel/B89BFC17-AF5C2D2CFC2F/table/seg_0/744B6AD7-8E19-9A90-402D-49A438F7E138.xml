@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="744B6AD7-8E19-9A90-402D-49A438F7E138" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_DEP_PRESTACION">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_DEP_PRESTACION</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRESTACION_ID" id="41B7E344-C49A-B421-E707-32F8B9660533">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_PRESTACION</sourceObjSchema>
+<sourceObjName>PRESTACION_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_DEP_PRESTACION_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PIA_FK" id="22AE9B98-C817-25FE-87C7-26B3B7838DC5">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_PRESTACION</sourceObjSchema>
+<sourceObjName>PIA_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57B79FFB-9CA1-0BE5-FEC9-A616C1F528A5" referredColumn="39416C6C-6CEB-EE4F-7E0E-57116E446227"/>
+</associations>
+</Column>
+<Column name="TPRESTACION_FK" id="C7F67221-4600-BB40-8E7D-AAF3C8B5E66F">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_PRESTACION</sourceObjSchema>
+<sourceObjName>TPRESTACION_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9946D6D9-C772-9358-99F7-BD8E4C76DB01" referredColumn="3DCB8513-0B6F-58D3-920E-98F40748BD5F"/>
+</associations>
+</Column>
+<Column name="PRESTACION_ORIGEN" id="EE89B9ED-C948-05CD-574D-92E4E9AADC14">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_PRESTACION</sourceObjSchema>
+<sourceObjName>PRESTACION_ORIGEN</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO_DERECHO" id="A797BB7D-81D4-25BF-02C2-045854F484B4">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_PRESTACION</sourceObjSchema>
+<sourceObjName>FECHA_INICIO_DERECHO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIRMA" id="1C3AFA39-F80F-17C0-B1E4-BD9FA7299101">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_PRESTACION</sourceObjSchema>
+<sourceObjName>FECHA_FIRMA</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="C00BC260-7DD0-D105-D13B-D02DB27145F8">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_PRESTACION</sourceObjSchema>
+<sourceObjName>FECHA_FIN</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="A0780F97-4EBC-1D70-A252-790214961909">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_PRESTACION</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C182A939-B8F8-72CA-3CB1-AF09EA191A53" name="PRESTACION_ID_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>PRESTACION_ID_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41B7E344-C49A-B421-E707-32F8B9660533"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44F44661-01A9-577A-C397-900064575E28" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="PRESTACION_ID_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>PRESTACION_ID_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41B7E344-C49A-B421-E707-32F8B9660533"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7AF0C47-D98F-5CE2-E97D-1B3A3C4277F5" name="HSU_DEP_PRESTACION_PIA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22AE9B98-C817-25FE-87C7-26B3B7838DC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA1D8239-DB0B-6959-E11C-2AB4C94E60C7" name="HSU_DEP_PRESTACION_TPRESTACION_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7F67221-4600-BB40-8E7D-AAF3C8B5E66F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

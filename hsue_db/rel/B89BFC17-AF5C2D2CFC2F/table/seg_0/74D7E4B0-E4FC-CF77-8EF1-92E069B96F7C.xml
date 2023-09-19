@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74D7E4B0-E4FC-CF77-8EF1-92E069B96F7C" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_EXP_FAMILIA">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_EXP_FAMILIA</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EXP_FAMILIA_ID" id="9F62A9D7-E6F1-7FB2-BB6E-6F1CDEF2A530">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_EXP_FAMILIA</sourceObjSchema>
+<sourceObjName>EXP_FAMILIA_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del Expediente Familiar.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_EXP_FAMILIA_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_EXPEDIENTE" id="987DB238-2B5A-2363-6FB1-E52912A2EF4F">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_EXP_FAMILIA</sourceObjSchema>
+<sourceObjName>CODIGO_EXPEDIENTE</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo del Expediente Familiar en el sistema origen.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="1A0E9D92-E470-F491-3760-8E2431E72944">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_EXP_FAMILIA</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descripción del Expediente Familiar.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_CORTA" id="BBC09688-6CD7-C105-9797-F1581E5610DB">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_EXP_FAMILIA</sourceObjSchema>
+<sourceObjName>DESCRIPCION_CORTA</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descripción corta del Expediente Familiar.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UC_ID" id="386E3D9F-59A5-36EC-B258-453500864200">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_EXP_FAMILIA</sourceObjSchema>
+<sourceObjName>UC_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la Unidad de Convivencia.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7888DB6C-AA83-4461-C45E-CE6046867486" referredColumn="730159D8-A52D-6CCF-C3C4-9FC6A440FEA6"/>
+</associations>
+</Column>
+<Column name="USUARIO_UC_TITULAR_ID" id="41991CB1-7E93-410C-DE82-24039D3F2889">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_EXP_FAMILIA</sourceObjSchema>
+<sourceObjName>USUARIO_UC_TITULAR_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del Usuario de la Unidad de Convivencia titular del expediente]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="467961A5-FDA8-D25B-7140-B134DD9D7003" referredColumn="C9B98A8F-C5A8-3D9E-2A93-4C3E07F72557"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99614E82-1539-97AB-C0E7-ABB031007EC4" name="HSU_EXP_FAMILIA_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_EXP_FAMILIA_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F62A9D7-E6F1-7FB2-BB6E-6F1CDEF2A530"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BCC6F02-25F0-0BDD-9807-F84B16E2B163" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_EXP_FAMILIA_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_EXP_FAMILIA_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F62A9D7-E6F1-7FB2-BB6E-6F1CDEF2A530"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1014C15-84FD-5170-D59F-3056F839D698" name="HSU_EXPFAMILIA_UC_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="386E3D9F-59A5-36EC-B258-453500864200"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0795F21B-7DD1-0167-CE2A-817B2806506C" name="HSU_EXPFAMILIA_USUARIOUC_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41991CB1-7E93-410C-DE82-24039D3F2889"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

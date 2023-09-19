@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5AD65C18-D9D6-0E8F-A897-36AFCC404151" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="HSU_DEP_TCICLO_VIDA">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_DEP_TCICLO_VIDA</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TCICLO_VIDA_ID" id="5360DCCD-BE12-923B-553A-5E1195989676">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_TCICLO_VIDA</sourceObjSchema>
+<sourceObjName>TCICLO_VIDA_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_CAT" id="3AF4BE69-5BA3-057F-9BA2-FC2E0CD899F7">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_TCICLO_VIDA</sourceObjSchema>
+<sourceObjName>DESCRIPCION_CAT</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_CAST" id="5711EDE7-1219-D553-A2C8-82B552C54F7F">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_TCICLO_VIDA</sourceObjSchema>
+<sourceObjName>DESCRIPCION_CAST</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD7389CD-11C5-2B9B-7405-133BD714543D" name="TCICLO_VIDA_ID_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>TCICLO_VIDA_ID_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5360DCCD-BE12-923B-553A-5E1195989676"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1EA82B1-0113-602D-97D0-A163CAB08B25" schemaObject="886467AA-1696-2D0F-2116-21ABB1AF0067" name="TCICLO_VIDA_ID_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>TCICLO_VIDA_ID_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5360DCCD-BE12-923B-553A-5E1195989676"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
