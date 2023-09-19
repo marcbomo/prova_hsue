@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="HSUEDB" directorySegmentName="seg_0" id="F5CA279C-73D4-45D2-798F-AD5055898648">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjName>HSUEDB</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<dsInitialExtent>1048576</dsInitialExtent>
+<dsMaxExtents>2147483645</dsMaxExtents>
+<dsNextExtent>1048576</dsNextExtent>
+<emLocalSubtype>UNIFORM</emLocalSubtype>
+<emUniformSize>1048576</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+<minExtLen>1048576</minExtLen>
+<dsCompression>NOCOMPRESS</dsCompression>
+<encrypt>NO</encrypt>
+<fileType>SMALLFILE</fileType>
+<inMemory>NO</inMemory>
+<dataFiles>
+<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="hsuedb.dbf" id="13B67711-C012-D68A-90FC-F4A704C2936A">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjName>/opt/oracle/oradata/XE/XEPDB1/hsuedb.dbf</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:43 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<autoextend>OFF</autoextend>
+<fileName>/opt/oracle/oradata/XE/XEPDB1/hsuedb.dbf</fileName>
+<nextBlockSize>0</nextBlockSize>
+<size>524288</size>
+</DataFile>
+</dataFiles>
+</TableSpaceOraclev10g>
