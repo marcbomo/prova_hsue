@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D9BC189A-76FE-2F8E-27AA-98D38566BA9A" containerWithKeyObject="2193E3EB-DDAA-5A11-ABE6-1ECE1C3C65D1" localFKIndex="CAA9EE75-51D5-A28D-C087-83BB5BB352C7" name="HSU_USUARIO_TBAJA_FK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_USUARIO_TBAJA_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<referredTableLongName>HSUEDB.HSU_TBAJA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>46B8FE58-039F-3587-3FAD-74973DF1EC4F</referredTableID>
+<keyObject>D00AFE69-6237-BA0C-7F47-44DD08BF87DD</keyObject>
+<referredKeyID>D00AFE69-6237-BA0C-7F47-44DD08BF87DD</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>TBAJA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

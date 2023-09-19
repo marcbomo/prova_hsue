@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="89FE546B-4329-05A3-7842-5F5DE6848440" containerWithKeyObject="09BFE219-5B4F-7546-E782-2721C55B294C" localFKIndex="110C399B-7F48-2513-3D26-6842EDE0D937" name="HSU_PROVINCIA_CCAA_FK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_PROVINCIA_CCAA_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<referredTableLongName>HSUEDB.HSU_CCAA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>77FE912B-EC42-DA17-F396-CF992BE693AA</referredTableID>
+<keyObject>DA8E8D91-C078-9CFD-21D3-63787D874DDF</keyObject>
+<referredKeyID>DA8E8D91-C078-9CFD-21D3-63787D874DDF</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODIGO_CCAA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

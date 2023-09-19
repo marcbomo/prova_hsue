@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC6237EE-9BE7-5C00-351A-78F8DFD1E628" containerWithKeyObject="6C124ED5-246C-3A78-4171-A2316C4B4B85" localFKIndex="5378DFCD-82F6-0C14-5DB4-B71F23BB3B56" name="HSU_LUGARNAC_PROVINCIA_FK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_LUGARNAC_PROVINCIA_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-18 10:43:44 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<referredTableLongName>HSUEDB.HSU_PROVINCIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>09BFE219-5B4F-7546-E782-2721C55B294C</referredTableID>
+<keyObject>07BFA42C-76D3-1BC4-651F-8745394F7187</keyObject>
+<referredKeyID>07BFA42C-76D3-1BC4-651F-8745394F7187</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODIGO_PROVINCIA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
