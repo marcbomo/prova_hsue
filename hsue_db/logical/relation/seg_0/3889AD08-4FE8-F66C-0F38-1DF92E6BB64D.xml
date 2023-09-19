@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HSU_PROVINCIA_CCAA_FK" directorySegmentName="seg_0" id="3889AD08-4FE8-F66C-0F38-1DF92E6BB64D">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<generatorID>89FE546B-4329-05A3-7842-5F5DE6848440</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<sourcePk>ABA2D55A-92EA-DF5F-5992-A8C504AB5AC5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AEB38055-745E-E26C-9124-08A453FB3886</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8F871434-76B9-A01C-4614-2E6572B87F21</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

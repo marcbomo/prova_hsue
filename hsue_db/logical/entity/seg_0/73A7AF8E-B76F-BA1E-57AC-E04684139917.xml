@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73A7AF8E-B76F-BA1E-57AC-E04684139917" name="HSU PSEUDOVIA">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<generatorID>E4C6A99B-F66A-2488-9CD7-BAF107118015</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PSVIA ID" id="F2B5DACE-AA24-71A1-65CB-C875E39EB765">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la pseudovía, te el format:
+“codi_provincia + codi_municipi+codi_psvia”.]]></commentInRDBMS>
+<generatorID>FAF8884C-F7A6-1E32-E305-907BFE06F697</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO MUNICIPIO" id="22F01896-7219-39BD-A6BD-395FA8BD24FF">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codi INE de la municipio.]]></commentInRDBMS>
+<generatorID>D9BF591B-14A4-3FB8-326B-A59F69AE8F01</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO PROVINCIA" id="01773370-0154-111D-FF9B-22D90A1CDE2D">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codi INE de la província.]]></commentInRDBMS>
+<generatorID>F5C016DB-77B7-6958-19B5-4B7E9A6FA0EA</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO PSVIA" id="0B360528-9DCA-9877-0811-6BBE62459CB9">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codi INE de la pseudovía.]]></commentInRDBMS>
+<generatorID>8A367299-F9D9-4923-A6F9-86F0AE75E6E5</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FVAR" id="0A232AB1-EC1C-A0BF-8786-F95EE7A1737D">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de variació.]]></commentInRDBMS>
+<generatorID>18FB4244-7B03-2EF8-D4B6-37B258D2A363</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MUNICIPIO ID" id="44CB6A71-BBFC-751A-EDCB-68558056656C">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador municipio.]]></commentInRDBMS>
+<generatorID>11322930-2119-589B-AB75-57BD6E934BD8</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2225F1ED-D93F-A04F-5796-CC374C6C9AFF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="10DA3261-AB2B-F4D3-37F6-0BC594669C03">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la pseudovia.]]></commentInRDBMS>
+<generatorID>BBF57C42-6023-FCB9-8E6B-9B4027FFFB39</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="486305D3-4C8D-B07D-AB0C-168C9C2ACE3A" name="HSU PSEUDOVIA PK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<generatorID>F1F4606F-56C9-E3B1-7C38-D8741BCABB9A</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F2B5DACE-AA24-71A1-65CB-C875E39EB765</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

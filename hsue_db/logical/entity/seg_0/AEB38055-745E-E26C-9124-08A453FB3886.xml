@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AEB38055-745E-E26C-9124-08A453FB3886" name="HSU CCAA">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<generatorID>77FE912B-EC42-DA17-F396-CF992BE693AA</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO CCAA ID" id="C3F9258A-4B17-69D9-4C7F-2AECF616A97C">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo INE de la Comunidad Autonoma.]]></commentInRDBMS>
+<generatorID>3A64C646-259E-C327-FC03-FD7097EF8CB6</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODIGO PAIS ID" id="EB64148A-3527-041B-4318-3D8C6D61FDAC">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo INE del país.]]></commentInRDBMS>
+<generatorID>C499AE12-BE14-968B-5533-2BC15B373EEB</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F3EC698A-0D11-169C-366A-75DE4C38DEA2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="46649B22-5AEE-2F71-4C85-B3134B39781D">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la Comunidad Autonoma.]]></commentInRDBMS>
+<generatorID>CC9B1C2F-4351-AD24-B6B5-EE3FD4E8DF5B</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ABA2D55A-92EA-DF5F-5992-A8C504AB5AC5" name="HSU CCAA PK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<generatorID>DA8E8D91-C078-9CFD-21D3-63787D874DDF</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C3F9258A-4B17-69D9-4C7F-2AECF616A97C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

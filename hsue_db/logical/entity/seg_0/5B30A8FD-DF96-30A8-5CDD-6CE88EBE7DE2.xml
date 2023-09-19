@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B30A8FD-DF96-30A8-5CDD-6CE88EBE7DE2" name="HSU CONTINENTE">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<generatorID>A6937C30-084C-CE0C-9052-3384A50C0DEE</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CODIGO CONTINENTE ID" id="B09DA557-6733-325E-94BD-3379F5B1F76C">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo INE de los continente]]></commentInRDBMS>
+<generatorID>AD040FC2-9109-EC37-8FC0-1CC1362DEBA6</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="202B55D1-BD48-1CC7-1B48-80FBBC6D01B4">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de los continentes]]></commentInRDBMS>
+<generatorID>8152DB7A-7E70-3704-245F-1A27E54D4BE2</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A25999C-4BE2-2DD2-1955-802C66E2F712" name="HSU CONTINENTE PK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<generatorID>CB79B0D8-2F03-E417-74DE-891E5970D24C</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B09DA557-6733-325E-94BD-3379F5B1F76C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

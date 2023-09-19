@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HSU_PARAMETRO_TPARAMETRO_FK" directorySegmentName="seg_0" id="200F426E-F215-B346-26F4-32CA3D5CBFCE">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<generatorID>CCC22163-A91F-A6D2-6D42-B4CBEFF006C3</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<sourcePk>E90E59A1-AD93-4BEB-7FE2-B3C3511ADE45</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B6EA3844-1198-12C2-D44F-8A87F3CE8A4B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F2AB5F95-C0A4-6575-9C6C-1850DA25C9CD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

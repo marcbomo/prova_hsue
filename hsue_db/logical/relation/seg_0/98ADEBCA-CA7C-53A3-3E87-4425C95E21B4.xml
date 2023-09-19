@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HSU_USUARIO_LUGARNAC_FK" directorySegmentName="seg_0" id="98ADEBCA-CA7C-53A3-3E87-4425C95E21B4">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<generatorID>2E6EA790-DAA2-24B8-1A0C-BB0B83263B09</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<sourcePk>E6D48375-18C3-7E49-0A97-F16B4C966B28</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B610818-733C-AD09-3159-1366B16D438F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>25EC0194-B4DF-E8DA-5850-6FAB9599B553</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

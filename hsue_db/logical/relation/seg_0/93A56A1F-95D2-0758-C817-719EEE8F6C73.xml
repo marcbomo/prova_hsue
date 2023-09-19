@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HSU_LUGARNAC_PROVINCIA_FK" directorySegmentName="seg_0" id="93A56A1F-95D2-0758-C817-719EEE8F6C73">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<generatorID>EC6237EE-9BE7-5C00-351A-78F8DFD1E628</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<sourcePk>FE4BCED9-573E-011F-4FC4-6D67D81D300B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8F871434-76B9-A01C-4614-2E6572B87F21</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1B610818-733C-AD09-3159-1366B16D438F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

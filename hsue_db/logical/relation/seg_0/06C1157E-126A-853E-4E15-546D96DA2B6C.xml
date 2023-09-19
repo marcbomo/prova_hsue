@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HSU_EXP_DEPENDENCIA_EXP_PERSONAL_FK" directorySegmentName="seg_0" id="06C1157E-126A-853E-4E15-546D96DA2B6C">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<generatorID>D9FC4D5E-90DE-FB4B-4A4F-9BB89AE7AAD5</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<sourcePk>7B71C02F-5E08-2051-AC8A-97AF13B2B48D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>578E36B5-C074-37EB-1135-ABC9356DBDAB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>77D64DB4-4764-6C90-2F50-A806581B4826</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

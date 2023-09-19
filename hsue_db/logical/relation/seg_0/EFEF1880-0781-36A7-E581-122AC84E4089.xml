@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HSU_DIRECCION_MUNICIPIO_FK" directorySegmentName="seg_0" id="EFEF1880-0781-36A7-E581-122AC84E4089">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<generatorID>3A8E288A-F50C-B9DA-081D-7FFF9AA94F7F</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<sourcePk>85744B6B-2DFC-2C67-C721-0023E6C46004</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6ACA7DCB-DEDC-77AD-8391-190A2A834704</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>97421E60-28CB-B266-8B3B-F101FAB258BA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

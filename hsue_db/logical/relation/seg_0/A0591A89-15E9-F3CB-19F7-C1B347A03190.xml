@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HSU_DEP_CICLO_VIDA_TCICLO_VIDA_FK" directorySegmentName="seg_0" id="A0591A89-15E9-F3CB-19F7-C1B347A03190">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<generatorID>7FC40569-DFB0-CA6E-7A26-9184F471CEA6</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<sourcePk>21016B9C-94B3-2CE3-E69B-F61FF84690C2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C884F093-B57D-BBAD-3433-88F0E365B629</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8F5FC7C1-DC6D-75C1-07EC-1478A918BD48</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HSU_TRAMO_VIA_FK" directorySegmentName="seg_0" id="EE657B92-A48B-570D-A197-90571955A481">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<generatorID>BD57FE76-8EBB-2967-07F1-CE3C5A1563A5</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<sourcePk>50EF88C3-6721-125D-4814-C7C8400346AE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>947842D3-8613-AFE8-F23E-5DF1FE580DAB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>75E63129-FAA8-9A45-F03D-8D0197ABA96A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HSU_BARRIO_VIA_FK" directorySegmentName="seg_0" id="1D4319F7-58B9-0F43-AA90-80395CBFA675">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<generatorID>7CACCF22-CD16-5838-8CB1-2CE2DF8FB8D3</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<sourcePk>50EF88C3-6721-125D-4814-C7C8400346AE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>947842D3-8613-AFE8-F23E-5DF1FE580DAB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9E6947C2-E704-05FA-5C0E-2C126E859751</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

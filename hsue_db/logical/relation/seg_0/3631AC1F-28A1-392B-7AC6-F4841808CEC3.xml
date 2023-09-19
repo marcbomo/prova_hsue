@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HSU_TRADUCMAP_TRADUCCIO_FK" directorySegmentName="seg_0" id="3631AC1F-28A1-392B-7AC6-F4841808CEC3">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<generatorID>9272E0EB-79D5-3C99-A6B4-AD4AE4CE9EE6</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<sourcePk>264E208B-F0F3-2F1B-69F3-465D58C78BD5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>28BD93CD-4B03-CE4B-AEA4-20326E60A10E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DAD3D935-A76A-D36D-E799-AA3A5BAFDF13</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

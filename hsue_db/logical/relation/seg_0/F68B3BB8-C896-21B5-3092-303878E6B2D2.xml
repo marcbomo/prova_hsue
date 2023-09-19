@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HSU_MUNICIPIO_ISLA_FK" directorySegmentName="seg_0" id="F68B3BB8-C896-21B5-3092-303878E6B2D2">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 07:07:45 UTC</createdTime>
+<generatorID>FE8BAE4C-9892-E523-5BD0-5DED66FB0F4F</generatorID>
+<ownerDesignName>hsue_db</ownerDesignName>
+<engineerTo>
+<item key="B89BFC17-4F3F-05B6-6A5E-AF5C2D2CFC2F" value="true"/>
+</engineerTo>
+<sourcePk>9A3E236B-4CBE-143D-6667-A1FA4D0FE259</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>23C0D01C-5362-7EC5-BAEF-4E25E9066F1F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6ACA7DCB-DEDC-77AD-8391-190A2A834704</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
