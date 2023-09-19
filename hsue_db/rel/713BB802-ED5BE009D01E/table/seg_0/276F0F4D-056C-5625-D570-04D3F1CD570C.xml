@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="276F0F4D-056C-5625-D570-04D3F1CD570C" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="HSU_DEP_EGESTION">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_DEP_EGESTION</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EGESTION_ID" id="9726CABA-C02E-951D-87F8-1B6F2E4330B8">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_EGESTION</sourceObjSchema>
+<sourceObjName>EGESTION_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGRUPACION" id="BCC6D95C-A756-3F0A-667D-B689623449F4">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_EGESTION</sourceObjSchema>
+<sourceObjName>AGRUPACION</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_CAT" id="09F45B6E-95AB-A3C8-BC13-57C4086880F4">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_EGESTION</sourceObjSchema>
+<sourceObjName>DESCRIPCION_CAT</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_CAST" id="1618ECA7-0912-6D31-AB3D-9FFA496B138D">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_EGESTION</sourceObjSchema>
+<sourceObjName>DESCRIPCION_CAST</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D83D72A-CC17-5E3D-88EB-72C9BA53CB02" name="EGESTION_ID_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>EGESTION_ID_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9726CABA-C02E-951D-87F8-1B6F2E4330B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD2DCA42-2BE7-1E2D-F819-A989650DE524" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="EGESTION_ID_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>EGESTION_ID_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9726CABA-C02E-951D-87F8-1B6F2E4330B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

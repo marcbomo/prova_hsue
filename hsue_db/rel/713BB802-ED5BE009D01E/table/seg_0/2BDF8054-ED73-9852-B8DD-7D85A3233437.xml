@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BDF8054-ED73-9852-B8DD-7D85A3233437" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="HSU_FITXER">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_FITXER</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FITXERID" id="D2CA926C-DAC7-4D2C-38D3-AAC845D039E1">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_FITXER</sourceObjSchema>
+<sourceObjName>FITXERID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_FITXER_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCIO" id="64301C24-BD3D-ED29-B7CD-6A315771006F">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_FITXER</sourceObjSchema>
+<sourceObjName>DESCRIPCIO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIME" id="F7A4388C-D479-255D-5A96-7309D19029D6">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_FITXER</sourceObjSchema>
+<sourceObjName>MIME</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM" id="C46D90B4-98EB-D059-3C95-7E50090171D3">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_FITXER</sourceObjSchema>
+<sourceObjName>NOM</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAMANY" id="D0237CE4-FB83-D79E-652C-F1212607D447">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_FITXER</sourceObjSchema>
+<sourceObjName>TAMANY</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8473DB93-1A2C-2135-F835-F39DC6963615" name="HSU_FITXER_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_FITXER_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2CA926C-DAC7-4D2C-38D3-AAC845D039E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60AD6377-18FD-D666-46A8-08E2FB53205C" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="HSU_FITXER_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_FITXER_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2CA926C-DAC7-4D2C-38D3-AAC845D039E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

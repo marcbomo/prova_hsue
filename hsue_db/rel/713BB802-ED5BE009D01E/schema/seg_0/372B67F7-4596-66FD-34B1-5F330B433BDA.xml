@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="HSUEDB" directorySegmentName="seg_0" id="372B67F7-4596-66FD-34B1-5F330B433BDA">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:08 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</SchemaObject>

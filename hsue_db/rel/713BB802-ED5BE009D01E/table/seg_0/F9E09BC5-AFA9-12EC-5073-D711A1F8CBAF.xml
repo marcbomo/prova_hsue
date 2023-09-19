@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9E09BC5-AFA9-12EC-5073-D711A1F8CBAF" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="HSU_TCONTACTO">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_TCONTACTO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TCONTACTO_ID" id="2BB33887-1248-2941-A121-0787E3985B05">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_TCONTACTO</sourceObjSchema>
+<sourceObjName>TCONTACTO_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del tipo de contacto.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_TCONTACTO" id="3A7200F9-D74B-3C46-D344-DB5D6C771CE6">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_TCONTACTO</sourceObjSchema>
+<sourceObjName>DESCRIPCION_TCONTACTO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descripción del tipo de contacto.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TCONTACTO" id="237441E3-D7B2-59B0-E750-D6E0895E43F2">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_TCONTACTO</sourceObjSchema>
+<sourceObjName>NOMBRE_TCONTACTO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del tipo de contacto.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF3FDE3B-40E6-A069-B69B-C9B82F28781F" name="HSU_TCONTACTO_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_TCONTACTO_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BB33887-1248-2941-A121-0787E3985B05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="575E7911-3C65-3482-CCCC-9337708B7747" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="HSU_TCONTACTO_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_TCONTACTO_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BB33887-1248-2941-A121-0787E3985B05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

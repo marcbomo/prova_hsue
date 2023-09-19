@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CBB9CE67-3356-7541-F13C-74407B3756C9" containerWithKeyObject="61E309B8-E974-0401-7315-ABADF37D8BCA" localFKIndex="64B2A03F-754C-9B85-5B76-CEE3EE1048DC" name="HSU_EXP_DEPENDENCIA_EXP_PERSONAL_FK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_EXP_DEPENDENCIA_EXP_PERSONAL_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<referredTableLongName>HSUEDB.HSU_EXP_PERSONAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ED9EC120-4701-9EF0-AC0A-D6BB3B7467D6</referredTableID>
+<keyObject>B6AAAD00-1501-4430-E0BA-F5327B548032</keyObject>
+<referredKeyID>B6AAAD00-1501-4430-E0BA-F5327B548032</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EXP_PERSONAL_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

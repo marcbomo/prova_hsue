@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="HSU_VIA" directorySegmentName="seg_0" id="FF04AA81-B742-5402-0E58-AFB6F02AF95B">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<schemaObject>372B67F7-4596-66FD-34B1-5F330B433BDA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>15618A52-80D9-9FB2-2BF3-27918FB5AFD4</segment>
+<tableSpace>7190B9F4-9480-0504-2C2C-AB7EDF35B476</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODIGO_MUNICIPIO" id="07509A88-32A2-2840-2D7F-2CD350E5696B">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_VIA" id="0EE84D46-09F9-B55F-FB1D-E8F0CA10AA43">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_VIA" id="372800E0-A346-A066-EDD8-0C6C20545EB3">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FVAR" id="372D3E89-E321-E17B-8E62-23FA8D784348">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TVIA_ID" id="727FD455-3F9E-11FE-33A6-A33CE98D61EC">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MUNICIPIO_ID" id="CEEF3148-8FFF-0718-6FF2-C72D4A801CEF">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_PROVINCIA" id="D7895984-DF2F-E619-C65A-71DFB2A6BE2A">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VIA_ID" id="F4B3BDBD-3B1B-DBD2-FFDC-962EFFBAC6B2">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="FAA6DD5F-2C7E-3C40-9440-745F219298BD">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="HSU_VIA_PK" id="C94C4F7E-9AE0-711B-9F38-3019CCD43B2D">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<schemaObject>372B67F7-4596-66FD-34B1-5F330B433BDA</schemaObject>
+<segment>904DA2C7-6123-EE82-0D17-85481D667052</segment>
+<tableSpace>7190B9F4-9480-0504-2C2C-AB7EDF35B476</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HSU_VIA_MUNICIPIO_FK" id="4C684E32-CF89-86E8-0ED8-D1B018AE53EA">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HSU_VIA_TVIA_FK" id="9F3456BA-50E0-BBBC-AAA1-9D3640658FF9">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HSU_VIA_PK" id="982028DE-88CE-1ACB-4EC7-0245006FD0B5">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<segment>904DA2C7-6123-EE82-0D17-85481D667052</segment>
+<tableSpace>7190B9F4-9480-0504-2C2C-AB7EDF35B476</tableSpace>
+<existingIndex>C94C4F7E-9AE0-711B-9F38-3019CCD43B2D</existingIndex>
+<indexSegment>904DA2C7-6123-EE82-0D17-85481D667052</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,317 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B8F866A-997B-3137-9FCF-6DCE0077ADD8" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="HSU_DEP_CICLO_VIDA">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_DEP_CICLO_VIDA</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:08 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CICLO_VIDA_ID" id="B911AED5-5580-4E08-9184-C225F2752F34">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_CICLO_VIDA</sourceObjSchema>
+<sourceObjName>CICLO_VIDA_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_DEP_CICLO_VIDA_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CICLO_VIDA_ORIGEN" id="D1DAF97A-C174-A206-292D-FB79BC52F8C2">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_CICLO_VIDA</sourceObjSchema>
+<sourceObjName>CICLO_VIDA_ORIGEN</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXP_DEPENDENCIA_FK" id="01530076-1FBF-6B09-A075-FCCD8EA5D7AF">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_CICLO_VIDA</sourceObjSchema>
+<sourceObjName>EXP_DEPENDENCIA_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F1BCAED-7855-EDA3-64A2-5C3DE1F3A86A" referredColumn="6625853C-7B05-849A-B88D-CA57120F9B3D"/>
+</associations>
+</Column>
+<Column name="TCICLO_VIDA_FK" id="66AAFFC7-E40B-815C-E7B0-38F430BFBFC6">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_CICLO_VIDA</sourceObjSchema>
+<sourceObjName>TCICLO_VIDA_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A89D704B-2556-7CF9-FD77-2C5F8FE7BD30" referredColumn="314ED1D1-3CE8-4B41-63BD-6EF8C97069E4"/>
+</associations>
+</Column>
+<Column name="EGESTION_FK" id="DF383A31-BBA9-5F8B-7F68-45E58C324B92">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_CICLO_VIDA</sourceObjSchema>
+<sourceObjName>EGESTION_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED351186-2619-CBD6-0BDB-AA13D901DA5D" referredColumn="9726CABA-C02E-951D-87F8-1B6F2E4330B8"/>
+</associations>
+</Column>
+<Column name="GRADO_RECONOCIDO" id="DBF6D731-B91C-17E4-EADD-FEB4C65C42E1">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_CICLO_VIDA</sourceObjSchema>
+<sourceObjName>GRADO_RECONOCIDO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_REGISTRO" id="2AE44635-E6A1-0242-B428-F644AC70B45B">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_CICLO_VIDA</sourceObjSchema>
+<sourceObjName>FECHA_REGISTRO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_VALIDACION" id="CAEE95F5-73A4-30D2-D579-B0069411A6D7">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_CICLO_VIDA</sourceObjSchema>
+<sourceObjName>FECHA_VALIDACION</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_RESOLUCION" id="04058F89-977D-2D33-16FE-7CCAC9545F2C">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_CICLO_VIDA</sourceObjSchema>
+<sourceObjName>FECHA_RESOLUCION</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="FDE537C1-1423-3C0F-6077-A6E9B476FE5D">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_CICLO_VIDA</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRADO_ID_ORIGEN" id="4FE56D3C-6488-D8EC-89BF-48BF844AE612">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_CICLO_VIDA</sourceObjSchema>
+<sourceObjName>GRADO_ID_ORIGEN</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del grado en el sistema de origen]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRADO_TIPO_ORIGEN" id="61160A8D-9608-75F8-8DEA-17808EFC2BEB">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_CICLO_VIDA</sourceObjSchema>
+<sourceObjName>GRADO_TIPO_ORIGEN</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del tipo grado en el sistema de origen]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRADO_RECONOCIDO_ID_ORIGEN" id="D6CBE059-6CA7-CD9C-55C1-00218B26F728">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_CICLO_VIDA</sourceObjSchema>
+<sourceObjName>GRADO_RECONOCIDO_ID_ORIGEN</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del grado reconocido en el sistema de origen]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRADO_PUNTUACION" id="3B029D8F-E4E7-AB34-77F3-E18AFAB1FD13">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_CICLO_VIDA</sourceObjSchema>
+<sourceObjName>GRADO_PUNTUACION</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Puntuación reconocida]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GRADO_TIPO_GRADO" id="A665E7E9-00C8-6799-A667-EB9255403184">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_CICLO_VIDA</sourceObjSchema>
+<sourceObjName>GRADO_TIPO_GRADO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo de grado de dependencia]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB96947D-CA9A-D9DA-3084-5585E0AD454C" name="CICLO_VIDA_ID_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>CICLO_VIDA_ID_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B911AED5-5580-4E08-9184-C225F2752F34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0932C825-4C59-B96A-56C8-26D51A4BF09C" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="CICLO_VIDA_ID_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>CICLO_VIDA_ID_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B911AED5-5580-4E08-9184-C225F2752F34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30403B92-2AF1-0E4C-0AB0-4AF2C5484E0C" name="HSU_DEP_CICLO_VIDA_EGESTION_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF383A31-BBA9-5F8B-7F68-45E58C324B92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C8DCDAF-F887-83D1-A46D-2273D7B41F0A" name="HSU_DEP_CICLO_VIDA_EXP_DEPENDENCIA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01530076-1FBF-6B09-A075-FCCD8EA5D7AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E90AFB4B-524F-174D-2ED2-13BA7302F7D2" name="HSU_DEP_CICLO_VIDA_TCICLO_VIDA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66AAFFC7-E40B-815C-E7B0-38F430BFBFC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

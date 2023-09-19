@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="HSU_DOCUMENTO" directorySegmentName="seg_0" id="5BD2B9A6-5F6F-3F27-77A9-1E869391FC96">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<schemaObject>372B67F7-4596-66FD-34B1-5F330B433BDA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AB226F4E-4EEA-B788-57CC-CFF92B7E8C26</segment>
+<tableSpace>7190B9F4-9480-0504-2C2C-AB7EDF35B476</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DOCUMENTO_ID" id="40980A79-6936-E7FE-654A-63F179FFDD78">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_DOCUMENTO_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="TDOC_ID" id="470EE648-522B-BF3E-FE7F-56DF8BD2D976">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACTIVO" id="53210A0E-F52D-C05D-3365-7FEB3CE237AA">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_PAIS_ID" id="85934307-D931-3C6B-CC4A-9887E3FF4AE2">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_EXPEDICION" id="93D8FCDD-5DC3-6DBC-0D97-DE4A14C3DCA7">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_CADUCIDAD" id="9E11F2C1-0E29-D7D4-F624-AB014898FE92">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USUARIO_ID" id="B238CE1A-59C6-CE67-B26B-416A16237A4C">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_DOCUMENTO" id="DD35367D-DB1D-D9B6-C58E-540EBA302C87">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="HSU_DOCUMENTO_PK" id="E13EE4C8-6093-446D-9457-5A66807D8E65">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<schemaObject>372B67F7-4596-66FD-34B1-5F330B433BDA</schemaObject>
+<segment>7EC5119A-93F1-D8D0-2D48-41DE15FEC179</segment>
+<tableSpace>7190B9F4-9480-0504-2C2C-AB7EDF35B476</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HSU_DOCUMENTO_USUARIO_FK" id="1289148E-7610-4E43-4C6A-092DA76DE271">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HSU_DOCUMENTO_TDOC_FK" id="1C55BFCB-1AF3-619D-07D8-3F6882ADAB8D">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HSU_DOCUMENTO_PAIS_FK" id="F60E57A9-FF20-CF4D-8FBA-A11DE2E794A0">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HSU_DOCUMENTO_PK" id="A7E67692-4652-B449-7F59-2AA114228478">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<segment>7EC5119A-93F1-D8D0-2D48-41DE15FEC179</segment>
+<tableSpace>7190B9F4-9480-0504-2C2C-AB7EDF35B476</tableSpace>
+<existingIndex>E13EE4C8-6093-446D-9457-5A66807D8E65</existingIndex>
+<indexSegment>7EC5119A-93F1-D8D0-2D48-41DE15FEC179</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

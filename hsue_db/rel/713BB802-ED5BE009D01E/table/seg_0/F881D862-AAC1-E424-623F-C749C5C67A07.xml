@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F881D862-AAC1-E424-623F-C749C5C67A07" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="HSU_DEP_RESOLUCION">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_DEP_RESOLUCION</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RESOLUCION_ID" id="8194BD22-6F7C-B107-68B7-2FF258FF97AF">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_RESOLUCION</sourceObjSchema>
+<sourceObjName>RESOLUCION_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_DEP_RESOLUCION_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRESTACION_FK" id="5D4C30F8-E978-4431-74C0-8C40A4DC9E69">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_RESOLUCION</sourceObjSchema>
+<sourceObjName>PRESTACION_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24256FF9-0F53-6ABD-3343-5F8A5FFB6316" referredColumn="5501F928-66DB-380B-969F-07CD5E6B6E99"/>
+</associations>
+</Column>
+<Column name="TRESOLUCION_FK" id="D89C73DC-A509-1D0C-A2DA-6EB81714AF17">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_RESOLUCION</sourceObjSchema>
+<sourceObjName>TRESOLUCION_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF7FB0C4-BD54-6C1A-21EF-09CAF1CA2934" referredColumn="1B98D97D-B9FC-2DD5-D2E0-9ACA93B441A9"/>
+</associations>
+</Column>
+<Column name="RESOLUCION_ORIGEN" id="48772170-7177-7496-E118-4B65DC34D4CE">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_RESOLUCION</sourceObjSchema>
+<sourceObjName>RESOLUCION_ORIGEN</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_RESOLUCION" id="B08C9DD0-1840-C209-BF81-B335AF179F36">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_RESOLUCION</sourceObjSchema>
+<sourceObjName>FECHA_RESOLUCION</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4E5A10C-E8F4-619F-EC3D-856B2FDD3315" name="RESOLUCION_ID_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>RESOLUCION_ID_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8194BD22-6F7C-B107-68B7-2FF258FF97AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A99735D4-6745-EE90-10AC-1D660E25431E" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="RESOLUCION_ID_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>RESOLUCION_ID_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8194BD22-6F7C-B107-68B7-2FF258FF97AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45F8BD00-4420-80D8-B1B5-865209C19E48" name="HSU_DEP_RESOLUCION_PRESTACION_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D4C30F8-E978-4431-74C0-8C40A4DC9E69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBA61807-72C4-A808-D7D2-FB5AE16EE818" name="HSU_DEP_RESOLUCION_TRESOLUCION_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D89C73DC-A509-1D0C-A2DA-6EB81714AF17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

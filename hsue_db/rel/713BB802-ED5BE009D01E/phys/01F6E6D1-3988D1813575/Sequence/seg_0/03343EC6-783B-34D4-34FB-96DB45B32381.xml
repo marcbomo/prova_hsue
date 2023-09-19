@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="HSU_FITXER_SEQ" directorySegmentName="seg_0" id="03343EC6-783B-34D4-34FB-96DB45B32381">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_FITXER_SEQ</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:07 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<cache>20</cache>
+<incrementBy>1</incrementBy>
+<maxValue>9999999999999999999999999999</maxValue>
+<minValue>1</minValue>
+<user>7AF795B6-3399-75CE-8860-D2BE75A34292</user>
+</SequenceOraclev10g>

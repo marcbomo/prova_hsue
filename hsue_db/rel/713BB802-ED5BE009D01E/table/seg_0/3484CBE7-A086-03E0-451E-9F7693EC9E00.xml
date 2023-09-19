@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3484CBE7-A086-03E0-451E-9F7693EC9E00" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="HSU_MUNICIPIO">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_MUNICIPIO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MUNICIPIO_ID" id="B3CBB82B-5618-A4FD-7EF6-881F7D1088AA">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_MUNICIPIO</sourceObjSchema>
+<sourceObjName>MUNICIPIO_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador municipio, tiene el formato: “codigo_provincia + codigo_municipio”]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_MUNICIPIO" id="D1ABBDB8-05A2-FEB4-7B50-9A554F29D68D">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_MUNICIPIO</sourceObjSchema>
+<sourceObjName>CODIGO_MUNICIPIO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo INE de la municipio.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PROVINCIA_ID" id="A0A7D382-0CAA-3FD3-722B-68A3BBBC9A94">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_MUNICIPIO</sourceObjSchema>
+<sourceObjName>CODIGO_PROVINCIA_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo INE de la provincia.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7887C65B-22F5-F68E-C6F6-BB019429D3BE" referredColumn="49A16B79-03C3-D80A-DCA8-17313B87C741"/>
+</associations>
+</Column>
+<Column name="DC" id="6CF32E52-3B7C-C5A2-D4FA-033E3049A8B7">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_MUNICIPIO</sourceObjSchema>
+<sourceObjName>DC</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Digito de control]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="AD673D19-4449-FBBC-E085-D4A6E5F8ED11">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_MUNICIPIO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del municipio.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISLA_FK" id="3B81652F-69A2-B6CC-B029-7FDAA1409373">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_MUNICIPIO</sourceObjSchema>
+<sourceObjName>ISLA_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D31F0BF-6D69-6F89-FCEB-8C0FC93AB018" referredColumn="0346CB75-3EE7-BD1F-4713-3D2C8AF4D3A8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84629303-C574-03B7-BFAF-ED323EA13746" name="HSU_MUNICIPIO_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_MUNICIPIO_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3CBB82B-5618-A4FD-7EF6-881F7D1088AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="508EBDB1-E248-8DD9-8AF2-39D8C5EE8E1F" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="HSU_MUNICIPIO_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_MUNICIPIO_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3CBB82B-5618-A4FD-7EF6-881F7D1088AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A80FF35-B43A-4666-B430-3BE7FF9EE5DF" name="HSU_MUNICIPIO_ISLA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B81652F-69A2-B6CC-B029-7FDAA1409373"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52441C0B-979C-60E8-71A5-B7B8913D10A8" name="HSU_MUNICIPIO_PROVINCIA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0A7D382-0CAA-3FD3-722B-68A3BBBC9A94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

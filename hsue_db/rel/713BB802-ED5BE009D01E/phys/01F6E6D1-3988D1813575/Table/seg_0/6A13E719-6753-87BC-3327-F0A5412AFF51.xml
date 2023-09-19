@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="HSU_EXP_FAMILIA" directorySegmentName="seg_0" id="6A13E719-6753-87BC-3327-F0A5412AFF51">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:08 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<schemaObject>372B67F7-4596-66FD-34B1-5F330B433BDA</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AB226F4E-4EEA-B788-57CC-CFF92B7E8C26</segment>
+<tableSpace>7190B9F4-9480-0504-2C2C-AB7EDF35B476</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODIGO_EXPEDIENTE" id="5B273E3B-58D1-FBF8-C707-35FEA01534DE">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USUARIO_UC_TITULAR_ID" id="7F8DF1F6-C487-D621-937D-BFC4A0183F59">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION" id="A24AF723-DDB3-123A-93E2-6718DBB31A74">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION_CORTA" id="B601F39E-0B06-C27A-D570-9808E970F977">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UC_ID" id="BF6DAFF3-AD09-767A-8C18-23753EE57746">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXP_FAMILIA_ID" id="F5616D87-D565-9508-476E-95C8C92B745D">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_EXP_FAMILIA_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="HSU_EXP_FAMILIA_PK" id="B391F53C-52F4-B2A3-B20D-B911B484810F">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<schemaObject>372B67F7-4596-66FD-34B1-5F330B433BDA</schemaObject>
+<segment>7EC5119A-93F1-D8D0-2D48-41DE15FEC179</segment>
+<tableSpace>7190B9F4-9480-0504-2C2C-AB7EDF35B476</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HSU_EXPFAMILIA_USUARIOUC_FK" id="326914D5-88C9-E8EA-69F2-22D4F332B99A">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="HSU_EXPFAMILIA_UC_FK" id="ADD069C3-96C5-F63B-1651-1F314A0BD0F2">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HSU_EXP_FAMILIA_PK" id="5997BFAD-AED7-EB8F-4BD0-8A4D4D9DDCC0">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<segment>7EC5119A-93F1-D8D0-2D48-41DE15FEC179</segment>
+<tableSpace>7190B9F4-9480-0504-2C2C-AB7EDF35B476</tableSpace>
+<existingIndex>B391F53C-52F4-B2A3-B20D-B911B484810F</existingIndex>
+<indexSegment>7EC5119A-93F1-D8D0-2D48-41DE15FEC179</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

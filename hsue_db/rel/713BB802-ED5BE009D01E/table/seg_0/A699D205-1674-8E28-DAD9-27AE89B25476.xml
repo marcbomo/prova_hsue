@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A699D205-1674-8E28-DAD9-27AE89B25476" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="HSU_PARAMETRO">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_PARAMETRO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PARAMETRO_ID" id="273212E0-6B12-2DDB-8A34-253641BDA204">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PARAMETRO</sourceObjSchema>
+<sourceObjName>PARAMETRO_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del parametro.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_PARAMETRO_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_PARAMETRO" id="C1F499EE-0ADA-B116-DEB4-B99E3DB66ECF">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PARAMETRO</sourceObjSchema>
+<sourceObjName>DESCRIPCION_PARAMETRO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descripción del parametro.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PARAMETRO" id="C142E8DA-F03F-1B07-3E5B-56E3B6FE2E39">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PARAMETRO</sourceObjSchema>
+<sourceObjName>NOMBRE_PARAMETRO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre del parametro.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TPARAMETRO_ID" id="1A366039-F1BA-9AC2-FC44-7472CE19E56E">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PARAMETRO</sourceObjSchema>
+<sourceObjName>TPARAMETRO_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del tipo de parametro.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="668668F7-C9CB-A4A2-85B5-0746EA18A401" referredColumn="AA61C46A-D298-722A-E0BA-449FD770BDB7"/>
+</associations>
+</Column>
+<Column name="USUARIO_ID" id="FD170F1D-1F0B-AB8F-C181-E193FF28B536">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PARAMETRO</sourceObjSchema>
+<sourceObjName>USUARIO_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del usuario.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96FB6F24-9AB9-77F7-2731-55FA5EA61627" referredColumn="E676CB1E-4179-3BAA-DB2D-640C7376D5D5"/>
+</associations>
+</Column>
+<Column name="VALOR_PARAMETRO" id="31164DAA-43D1-9751-974C-F73BCE4B5CCC">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_PARAMETRO</sourceObjSchema>
+<sourceObjName>VALOR_PARAMETRO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor del parametro.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C47CF003-5426-216B-68F8-12510F5356BD" name="HSU_PARAMETRO_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_PARAMETRO_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="273212E0-6B12-2DDB-8A34-253641BDA204"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7066593C-3860-9EB3-AC10-9E6B50176B85" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="HSU_PARAMETRO_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_PARAMETRO_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="273212E0-6B12-2DDB-8A34-253641BDA204"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75D97705-327D-27F8-610A-7D5C493A92DD" name="HSU_PARAMETRO_TPARAMETRO_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A366039-F1BA-9AC2-FC44-7472CE19E56E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFB05693-C5FF-07F5-2FA5-389B5155CDA5" name="HSU_PARAMETRO_USUARIO_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD170F1D-1F0B-AB8F-C181-E193FF28B536"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

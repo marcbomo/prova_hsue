@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="HSU_LUGAR_NAC_SEQ" directorySegmentName="seg_0" id="C3C2C812-C530-7AB1-1D4A-15E6DC0C6E37">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_LUGAR_NAC_SEQ</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:07 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<cache>20</cache>
+<incrementBy>1</incrementBy>
+<maxValue>9999999999999999999999999999</maxValue>
+<minValue>1</minValue>
+<user>7AF795B6-3399-75CE-8860-D2BE75A34292</user>
+</SequenceOraclev10g>

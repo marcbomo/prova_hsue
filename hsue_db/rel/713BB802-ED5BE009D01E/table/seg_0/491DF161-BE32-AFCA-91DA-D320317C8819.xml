@@ -1,0 +1,229 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="491DF161-BE32-AFCA-91DA-D320317C8819" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="HSU_NACIONALIDAD">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_NACIONALIDAD</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NACIONALIDAD_ID" id="00A49E85-7D1D-A38F-DDF5-5B7CC463528E">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_NACIONALIDAD</sourceObjSchema>
+<sourceObjName>NACIONALIDAD_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la nacionalidad.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_NACIONALIDAD_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVO" id="DC20B159-F8DA-65A2-E9A3-8A8EE047352D">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_NACIONALIDAD</sourceObjSchema>
+<sourceObjName>ACTIVO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identifica si el documento esta activo.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCUMENTO_ID" id="1BBD9068-6E5D-6295-EC9F-2A5834365091">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_NACIONALIDAD</sourceObjSchema>
+<sourceObjName>DOCUMENTO_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del documento que acredita la nacionalidad.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0142CA9A-2859-9D75-E6FE-6D22246FEE7C" referredColumn="40980A79-6936-E7FE-654A-63F179FFDD78"/>
+</associations>
+</Column>
+<Column name="FECHA_FIN" id="D740EEA3-A6D5-3BA1-CB5C-0E91E277F9BA">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_NACIONALIDAD</sourceObjSchema>
+<sourceObjName>FECHA_FIN</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha a partir de que la nacionalidad esta inactiva.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="BE4B2290-D272-146B-886E-FAABB2F95AE9">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_NACIONALIDAD</sourceObjSchema>
+<sourceObjName>FECHA_INICIO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha a partir de que la nacionalidad esta activa.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="705D6E91-591E-F2E9-5C11-5D5D6F5F79A9">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_NACIONALIDAD</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la nacionalidad.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_ID" id="B1B4489A-D22F-F0D3-1F53-44779A2DD225">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_NACIONALIDAD</sourceObjSchema>
+<sourceObjName>PAIS_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del pais de  la nacionalidad.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B49241FE-22D8-AC66-B5CF-E96CC2348265" referredColumn="30D596E4-BD3D-EC96-5B76-70538DF27E26"/>
+</associations>
+</Column>
+<Column name="PRIORIDAD" id="DDF745AF-876A-3B9D-4D2D-7F3EF83F7D09">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_NACIONALIDAD</sourceObjSchema>
+<sourceObjName>PRIORIDAD</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Define si es la nacionalidad prioritaria.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_ID" id="E34A07F2-D658-A1EA-A191-FDFA5861DEC1">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_NACIONALIDAD</sourceObjSchema>
+<sourceObjName>USUARIO_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del usuario al que pertenece la nacionalidad.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94B5D2CA-6DBB-F219-18F7-1EC6F0E21158" referredColumn="E676CB1E-4179-3BAA-DB2D-640C7376D5D5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60DBE0F1-4216-1A00-15B7-FC76246BB633" name="HSU_NACIONALIDAD_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_NACIONALIDAD_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00A49E85-7D1D-A38F-DDF5-5B7CC463528E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B6959E8-0165-C7E7-33A2-17A7988A2CC9" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="HSU_NACIONALIDAD_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_NACIONALIDAD_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00A49E85-7D1D-A38F-DDF5-5B7CC463528E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="751CC638-F132-5D20-2533-0C1DB37BC4B7" name="HSU_NACIONALID_DOCUMENTO_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BBD9068-6E5D-6295-EC9F-2A5834365091"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DB5BC29-8A8E-5AB2-3BBC-ACBE74962D5C" name="HSU_NACIONALID_PAIS_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1B4489A-D22F-F0D3-1F53-44779A2DD225"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11877783-5B62-C324-6307-3A3790C9C676" name="HSU_NACIONALID_USUARIO_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E34A07F2-D658-A1EA-A191-FDFA5861DEC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

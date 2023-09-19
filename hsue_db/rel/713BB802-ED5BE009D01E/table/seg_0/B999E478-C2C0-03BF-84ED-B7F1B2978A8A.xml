@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B999E478-C2C0-03BF-84ED-B7F1B2978A8A" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="HSU_CONTACTO">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_CONTACTO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CONTACTO_ID" id="BA6DF671-A2B5-66A0-F09D-FDE374756A66">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_CONTACTO</sourceObjSchema>
+<sourceObjName>CONTACTO_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del metodo de contacto.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_CONTACTO_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES_PREFERIDO" id="ED3F3CEC-642D-0342-8EA5-EC3A1B63B090">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_CONTACTO</sourceObjSchema>
+<sourceObjName>ES_PREFERIDO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Define si es el metodo de contacto preferido.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TCONTACTO_ID" id="C0E93C41-5143-F018-30F0-04CC237BBBFF">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_CONTACTO</sourceObjSchema>
+<sourceObjName>TCONTACTO_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del tipo de contacto.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6A8D7FD-B739-51F7-178B-37CF2E243BB1" referredColumn="2BB33887-1248-2941-A121-0787E3985B05"/>
+</associations>
+</Column>
+<Column name="USUARIO_ID" id="F9442C4B-9B8B-5E59-A844-0EA36618B4DA">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_CONTACTO</sourceObjSchema>
+<sourceObjName>USUARIO_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del usuario al que pertenece el contacto.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF660A10-EE1A-CDE8-D4A0-22D058551E99" referredColumn="E676CB1E-4179-3BAA-DB2D-640C7376D5D5"/>
+</associations>
+</Column>
+<Column name="VALOR" id="B8065ACB-A040-EDB7-787B-1479405BAC09">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_CONTACTO</sourceObjSchema>
+<sourceObjName>VALOR</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor del metodo de contacto.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF1B82C1-B896-150F-7142-B7F27AEF8929" name="HSU_CONTACTO_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_CONTACTO_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA6DF671-A2B5-66A0-F09D-FDE374756A66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC3F165F-DC6A-1523-109D-7287CB06959C" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="HSU_CONTACTO_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_CONTACTO_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA6DF671-A2B5-66A0-F09D-FDE374756A66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8478E66D-C0FC-597F-AF07-0F8A74C0E709" name="HSU_CONTACTO_TCONTACTO_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0E93C41-5143-F018-30F0-04CC237BBBFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCF05520-1E98-F695-7D74-FC9BDEA3D04A" name="HSU_CONTACTO_USUARIO_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9442C4B-9B8B-5E59-A844-0EA36618B4DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

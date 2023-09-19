@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="HSUEDB" directorySegmentName="seg_0" id="7AF795B6-3399-75CE-8860-D2BE75A34292">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjName>HSUEDB</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:07 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<schemaObject>372B67F7-4596-66FD-34B1-5F330B433BDA</schemaObject>
+<defTableSpace>7190B9F4-9480-0504-2C2C-AB7EDF35B476</defTableSpace>
+<privileges>SELECT ANY TRANSACTION, CREATE JOB, SELECT ANY DICTIONARY, ON COMMIT REFRESH, CREATE OPERATOR, CREATE LIBRARY, ALTER ANY TYPE, CREATE TYPE, CREATE MATERIALIZED VIEW, DROP ANY TRIGGER, ALTER ANY TRIGGER, CREATE TRIGGER, EXECUTE ANY PROCEDURE, DROP ANY PROCEDURE, ALTER ANY PROCEDURE, CREATE PROCEDURE, ALTER DATABASE, SELECT ANY SEQUENCE, DROP ANY SEQUENCE, ALTER ANY SEQUENCE, CREATE SEQUENCE, CREATE VIEW, DROP ANY SYNONYM, CREATE SYNONYM, ALTER ANY INDEX, UPDATE ANY TABLE, INSERT ANY TABLE, SELECT ANY TABLE, DROP ANY TABLE, ALTER ANY TABLE, CREATE TABLE, CREATE SESSION</privileges>
+<profile>DEFAULT</profile>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="CBCAF306-BE18-5A47-BA48-449B3C41800A">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:07 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<tableSpace>7190B9F4-9480-0504-2C2C-AB7EDF35B476</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

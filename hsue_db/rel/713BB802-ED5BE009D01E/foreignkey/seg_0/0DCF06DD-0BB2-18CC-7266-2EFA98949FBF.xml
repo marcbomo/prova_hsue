@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0DCF06DD-0BB2-18CC-7266-2EFA98949FBF" containerWithKeyObject="E7EDDD92-DD18-E066-09AD-C03A75399ECC" localFKIndex="FE0129E5-1A6F-3795-A39F-481057720F69" name="HSU_TRAMO_PSEUDOVIA_FK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_TRAMO_PSEUDOVIA_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<referredTableLongName>HSUEDB.HSU_PSEUDOVIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1D774160-B78F-0FB7-4972-28C6A5449877</referredTableID>
+<keyObject>413135D0-466F-FED8-2926-F2CEEAFA4E4E</keyObject>
+<referredKeyID>413135D0-466F-FED8-2926-F2CEEAFA4E4E</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PSVIA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

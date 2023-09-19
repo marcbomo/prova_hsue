@@ -1,0 +1,498 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE9B1052-F69B-8EE1-D36A-A2FE8811F51C" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="HSU_DIRECCION">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_DIRECCION</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:08 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DIRECCION_ID" id="A0474049-8D66-4BCA-170A-700AA50A45A3">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>DIRECCION_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la dirección.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_DIRECCION_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVO" id="C488755A-9FD3-323B-50F7-C5F0DFB4107F">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>ACTIVO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identifica si la dirección esta activa.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APARTADO_CORREOS" id="29DD66C9-D17A-6567-E052-7CA45B6C8ED6">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>APARTADO_CORREOS</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BLOQUE" id="96DF8715-BE2E-4FA9-D8B7-A0EF3071DA14">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>BLOQUE</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_POSTAL" id="1C4791E6-5120-31C1-FC60-9559DE56220A">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>CODIGO_POSTAL</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo Postal]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_PROVINCIA_ID" id="6ABB0752-EC62-6D45-5E21-908A9EC0BA43">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>CODIGO_PROVINCIA_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo INE de la província.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18720164-A573-6C2C-7B7C-1DB833A5C77F" referredColumn="49A16B79-03C3-D80A-DCA8-17313B87C741"/>
+</associations>
+</Column>
+<Column name="DIRECCION" id="BFD9EC1A-4FD9-6C3A-F175-04D5200B6D9B">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>DIRECCION</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Campo libre para la dirección completa.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400 CHAR</dataTypeSize>
+<ownDataTypeParameters>400 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESCALERA" id="6EA9CA3F-1944-26C4-2522-1B2462C835D2">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>ESCALERA</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ACTUALIZACION" id="1CAE992F-5E7F-F1BF-E054-161D80663025">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>FECHA_ACTUALIZACION</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de actualización de la dirección.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIN" id="562F15FE-E918-D563-A72C-D33AB218659B">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>FECHA_FIN</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha a partir de que la dirección esta inactiva.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO" id="A42750F5-27DF-4E41-60FD-1505CA623885">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>FECHA_INICIO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha a partir de que la dirección esta activa.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MUNICIPIO_ID" id="3A247356-957E-0BDF-0F4E-9381A49C6001">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>MUNICIPIO_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador municipio, tiene el formato: “codigo_provincia + codigo_municipio”]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBB52993-79D6-530E-9E2C-BE15C0F21C84" referredColumn="B3CBB82B-5618-A4FD-7EF6-881F7D1088AA"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="AA5A1517-8E86-C390-BEF6-DAFDFF49FC8C">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la dirección.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO" id="75264662-45BE-0941-EEB1-92443813F512">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>NUMERO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número del domicilio.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PISO" id="2EBF0521-44CB-D003-3172-B4C45DC9F5E4">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>PISO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUERTA" id="C870B62B-6EDC-2806-43CA-04F912B8558D">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>PUERTA</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TDIRECCION_ID" id="39F52FAB-A69E-5801-DAB7-5BC8B9FA4978">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>TDIRECCION_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del tipo de dirección.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30697324-3816-3220-5C7A-501E72AC60CC" referredColumn="C34028E0-FA6E-8203-17E3-993489CF1850"/>
+</associations>
+</Column>
+<Column name="TRAMO_ID" id="2003371E-AD1B-1697-B2DC-29BFDBA85723">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>TRAMO_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del tramo. Tiene el formato: “codigo_provincia + codigo_municipi + codigo_via + codigo_psvia + ein + cein + esn + cesn”]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DDEDAD9-E9A0-B2E2-A78F-E00AF461BEDF" referredColumn="228473CB-3A98-7B9F-A246-220CAC73EB72"/>
+</associations>
+</Column>
+<Column name="UC_ID" id="8DF24B1F-5B31-F7E8-A293-BDE06B17AFA8">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>UC_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la unidad de convivencia a la que pertenece la dirección.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E0FFC0E-E977-3127-0452-E324ACDBD508" referredColumn="FCD0A1C2-6DFD-6C60-C3EF-D7B193047C95"/>
+</associations>
+</Column>
+<Column name="UP_ID" id="2F644949-EA94-9959-9EA4-A4AB3829E1FE">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>UP_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la Unitat Poblacional, tiene  el formato: “codigo_provincia + codigo_municipoi+codigo_un”]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 CHAR</dataTypeSize>
+<ownDataTypeParameters>12 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABE0CD33-5A8D-6875-57EF-FCB936A91980" referredColumn="A3E61C5E-64A5-8547-25BD-9662B2187801"/>
+</associations>
+</Column>
+<Column name="USUARIO_ID" id="2D566FEA-8831-E683-E51B-2D71F2600D00">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>USUARIO_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador del usuario al que pertenece la dirección.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68DD19BC-5839-0139-0B8B-85E3F7B6B4D4" referredColumn="E676CB1E-4179-3BAA-DB2D-640C7376D5D5"/>
+</associations>
+</Column>
+<Column name="VIA_ID" id="DF0DC0E4-3194-E452-1469-79EB1FC54C03">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DIRECCION</sourceObjSchema>
+<sourceObjName>VIA_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador de la via, tiene el formato: “codigo_provincia + codigo_municipio + codigo_via”.]]></commentInRDBMS>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02D512CD-5136-21A5-7617-FB515D6C854F" referredColumn="F4B3BDBD-3B1B-DBD2-FFDC-962EFFBAC6B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4AB09BC0-FFBF-A030-0696-9624C402A6B2" name="HSU_DIRECCION_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_DIRECCION_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0474049-8D66-4BCA-170A-700AA50A45A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DC398CE-5E6E-CF99-7FD1-585DB3030464" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="HSU_DIRECCION_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_DIRECCION_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0474049-8D66-4BCA-170A-700AA50A45A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="353C72F7-F1DB-6E99-4426-6E36422EA5B5" name="HSU_DIRECCION_MUNICIPIO_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A247356-957E-0BDF-0F4E-9381A49C6001"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5051CA44-D938-DB6F-3176-195DD9D988B8" name="HSU_DIRECCION_PROVINCIA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6ABB0752-EC62-6D45-5E21-908A9EC0BA43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="14A93159-9076-6002-25EC-F0B7BC68199A" name="HSU_DIRECCION_TDIRECCION_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39F52FAB-A69E-5801-DAB7-5BC8B9FA4978"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9FF68C2-4C92-BA33-3970-734A0F131D71" name="HSU_DIRECCION_TRAMO_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2003371E-AD1B-1697-B2DC-29BFDBA85723"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61AA61B6-A4FF-62B4-78A4-27220FDECC4E" name="HSU_DIRECCION_UC_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DF24B1F-5B31-F7E8-A293-BDE06B17AFA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9380A584-05B3-0436-7F4A-4DC8840F89C6" name="HSU_DIRECCION_UP_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F644949-EA94-9959-9EA4-A4AB3829E1FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6FD51A8-35A2-7F64-31A6-F88F29F0E55C" name="HSU_DIRECCION_USUARIO_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D566FEA-8831-E683-E51B-2D71F2600D00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3BA5002A-A656-832A-F248-1014AD15B967" name="HSU_DIRECCION_VIA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF0DC0E4-3194-E452-1469-79EB1FC54C03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

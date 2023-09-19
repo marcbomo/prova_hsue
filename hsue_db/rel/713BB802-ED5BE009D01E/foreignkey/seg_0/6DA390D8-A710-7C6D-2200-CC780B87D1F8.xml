@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6DA390D8-A710-7C6D-2200-CC780B87D1F8" containerWithKeyObject="FF04AA81-B742-5402-0E58-AFB6F02AF95B" localFKIndex="9F3456BA-50E0-BBBC-AAA1-9D3640658FF9" name="HSU_VIA_TVIA_FK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_VIA_TVIA_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<referredTableLongName>HSUEDB.HSU_TVIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F2C9CC81-C614-D2F1-09C7-3ACE18EE4D6A</referredTableID>
+<keyObject>1E7D401F-C67F-85BB-07B3-F22BB5A6A37D</keyObject>
+<referredKeyID>1E7D401F-C67F-85BB-07B3-F22BB5A6A37D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>TVIA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

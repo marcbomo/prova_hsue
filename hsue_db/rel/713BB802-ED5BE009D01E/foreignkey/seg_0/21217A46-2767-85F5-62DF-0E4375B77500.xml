@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="21217A46-2767-85F5-62DF-0E4375B77500" containerWithKeyObject="50377DC4-4AE3-D709-5D8C-2174568C8D7A" localFKIndex="3F3F66B1-B198-59F5-36A1-337CE887EFBC" name="HSU_USUARIO_LUGARNAC_FK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_USUARIO_LUGARNAC_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<referredTableLongName>HSUEDB.HSU_LUGAR_NAC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AD097FB0-E1E9-409F-44CF-0877B4323B11</referredTableID>
+<keyObject>35091716-3354-3312-543D-780CB97E7982</keyObject>
+<referredKeyID>35091716-3354-3312-543D-780CB97E7982</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>LUGAR_NAC_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

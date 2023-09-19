@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62F7794B-3D83-D929-7C6F-470245D678F5" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="HSU_DEP_PIA">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>HSU_DEP_PIA</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PIA_ID" id="9CC78217-F7AC-8F04-A76F-81F41D6A9119">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_PIA</sourceObjSchema>
+<sourceObjName>PIA_ID</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<defaultValue>&quot;HSUEDB&quot;.&quot;HSU_DEP_PIA_SEQ&quot;.&quot;NEXTVAL&quot;</defaultValue>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CICLO_VIDA_FK" id="4C79AE1D-B2C7-7C7D-2B1C-9124022FC14B">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_PIA</sourceObjSchema>
+<sourceObjName>CICLO_VIDA_FK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B46EB8F3-933D-2CF1-101D-2AB6328C4F31" referredColumn="B911AED5-5580-4E08-9184-C225F2752F34"/>
+</associations>
+</Column>
+<Column name="FECHA_INICIO_DERECHO" id="4C95C442-0AC9-ADB8-C7E1-1C462CD6426E">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_PIA</sourceObjSchema>
+<sourceObjName>FECHA_INICIO_DERECHO</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FIRMA" id="70FA27AD-06B2-DB6C-8098-367E4FB964C5">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSU_DEP_PIA</sourceObjSchema>
+<sourceObjName>FECHA_FIRMA</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91A8293E-C5B0-CAD4-65E2-1558905CCEB3" name="PIA_ID_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>PIA_ID_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CC78217-F7AC-8F04-A76F-81F41D6A9119"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63C88CA8-D672-2E86-EC60-2EE605289848" schemaObject="372B67F7-4596-66FD-34B1-5F330B433BDA" name="PIA_ID_PK">
+<sourceConnName>hsue</sourceConnName>
+<sourceObjSchema>HSUEDB</sourceObjSchema>
+<sourceObjName>PIA_ID_PK</sourceObjName>
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:09 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CC78217-F7AC-8F04-A76F-81F41D6A9119"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93A50C1F-65CD-399C-A4B6-494CEE3BFC69" name="HSU_DEP_PIA_CICLO_VIDA_FK">
+<createdBy>mbosch</createdBy>
+<createdTime>2023-09-19 11:50:10 UTC</createdTime>
+<ownerDesignName>hsue_db</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C79AE1D-B2C7-7C7D-2B1C-9124022FC14B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
